@@ -10,6 +10,6 @@ pub struct Command {
     #[clap(short, long)]
     pub json_file: String,
 
-    #[clap(short, long, default_value_t = 10)]
+    #[clap(short, long, default_value_t = 4)]
     pub max_distance: u8,
 }
