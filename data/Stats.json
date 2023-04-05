@@ -1,0 +1,4045 @@
+{
+ "Flowcell" : "000000000-KL8GM",
+ "RunNumber" : 1,
+ "RunId" : "230330_M00182_0001_000000000-KL8GM",
+ "ReadInfosForLanes" : [
+  {
+   "LaneNumber" : 1,
+   "ReadInfos" : [
+    {
+     "Number" : 1,
+     "NumCycles" : 122,
+     "IsIndexedRead" : false
+    },
+    {
+     "Number" : 1,
+     "NumCycles" : 8,
+     "IsIndexedRead" : true
+    },
+    {
+     "Number" : 2,
+     "NumCycles" : 8,
+     "IsIndexedRead" : true
+    },
+    {
+     "Number" : 2,
+     "NumCycles" : 122,
+     "IsIndexedRead" : false
+    }
+   ]
+  }
+ ],
+ "ConversionResults" : [
+  {
+   "LaneNumber" : 1,
+   "TotalClustersRaw" : 32637431,
+   "TotalClustersPF" : 25360205,
+   "Yield" : 6187890020,
+   "DemuxResults" : [
+    {
+     "SampleId" : "SQ1",
+     "SampleName" : "SQ1",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "CCGCGGTT+AGCGCTAG",
+       "MismatchCounts" : {
+        "0" : 350,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 350,
+     "Yield" : 85400,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 42700,
+       "YieldQ30" : 23183,
+       "QualityScoreSum" : 1152902,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 42700,
+       "YieldQ30" : 19905,
+       "QualityScoreSum" : 1075907,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ10",
+     "SampleName" : "SQ10",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "GACCTGAA+TTGGTGAG",
+       "MismatchCounts" : {
+        "0" : 314496,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 314496,
+     "Yield" : 76737024,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 38368512,
+       "YieldQ30" : 35360328,
+       "QualityScoreSum" : 1376154198,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 38368512,
+       "YieldQ30" : 34542041,
+       "QualityScoreSum" : 1356102967,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ11",
+     "SampleName" : "SQ11",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "TCTCTACT+CGCGGTTC",
+       "MismatchCounts" : {
+        "0" : 204499,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 204499,
+     "Yield" : 49897756,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 24948878,
+       "YieldQ30" : 23074556,
+       "QualityScoreSum" : 896935938,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 24948878,
+       "YieldQ30" : 22553026,
+       "QualityScoreSum" : 884006306,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ12",
+     "SampleName" : "SQ12",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "CTCTCGTC+TATAACCT",
+       "MismatchCounts" : {
+        "0" : 335559,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 335559,
+     "Yield" : 81876396,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 40938198,
+       "YieldQ30" : 37929585,
+       "QualityScoreSum" : 1473545657,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 40938198,
+       "YieldQ30" : 37034457,
+       "QualityScoreSum" : 1451384470,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ13",
+     "SampleName" : "SQ13",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "CCAAGTCT+AAGGATGA",
+       "MismatchCounts" : {
+        "0" : 328427,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 328427,
+     "Yield" : 80136188,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 40068094,
+       "YieldQ30" : 37111498,
+       "QualityScoreSum" : 1441847706,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 40068094,
+       "YieldQ30" : 36042869,
+       "QualityScoreSum" : 1415600308,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ14",
+     "SampleName" : "SQ14",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "TTGGACTC+GGAAGCAG",
+       "MismatchCounts" : {
+        "0" : 248972,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 248972,
+     "Yield" : 60749168,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 30374584,
+       "YieldQ30" : 28070395,
+       "QualityScoreSum" : 1091410690,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 30374584,
+       "YieldQ30" : 27247159,
+       "QualityScoreSum" : 1071279346,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ15",
+     "SampleName" : "SQ15",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "GGCTTAAG+TCGTGACC",
+       "MismatchCounts" : {
+        "0" : 158915,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 158915,
+     "Yield" : 38775260,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 19387630,
+       "YieldQ30" : 17910219,
+       "QualityScoreSum" : 696507104,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 19387630,
+       "YieldQ30" : 17313495,
+       "QualityScoreSum" : 681969776,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ16",
+     "SampleName" : "SQ16",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "AATCCGGA+CTACAGTT",
+       "MismatchCounts" : {
+        "0" : 77536,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 77536,
+     "Yield" : 18918784,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 9459392,
+       "YieldQ30" : 8732651,
+       "QualityScoreSum" : 339738307,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 9459392,
+       "YieldQ30" : 8266436,
+       "QualityScoreSum" : 328499348,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ17",
+     "SampleName" : "SQ17",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "TAATACAG+ATATTCAC",
+       "MismatchCounts" : {
+        "0" : 192135,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 192135,
+     "Yield" : 46880940,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 23440470,
+       "YieldQ30" : 21686221,
+       "QualityScoreSum" : 842889353,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 23440470,
+       "YieldQ30" : 21074148,
+       "QualityScoreSum" : 827896575,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ18",
+     "SampleName" : "SQ18",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "CGGCGTGA+GCGCCTGT",
+       "MismatchCounts" : {
+        "0" : 203222,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 203222,
+     "Yield" : 49586168,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 24793084,
+       "YieldQ30" : 22875345,
+       "QualityScoreSum" : 889961426,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 24793084,
+       "YieldQ30" : 21723756,
+       "QualityScoreSum" : 862278633,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ19",
+     "SampleName" : "SQ19",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "ATGTAAGT+ACTCTATG",
+       "MismatchCounts" : {
+        "0" : 350751,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 350751,
+     "Yield" : 85583244,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 42791622,
+       "YieldQ30" : 39685719,
+       "QualityScoreSum" : 1541075015,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 42791622,
+       "YieldQ30" : 38491981,
+       "QualityScoreSum" : 1511869189,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ2",
+     "SampleName" : "SQ2",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "TTATAACC+GATATCGA",
+       "MismatchCounts" : {
+        "0" : 280179,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 280179,
+     "Yield" : 68363676,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 34181838,
+       "YieldQ30" : 31607927,
+       "QualityScoreSum" : 1228718538,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 34181838,
+       "YieldQ30" : 30618498,
+       "QualityScoreSum" : 1204620523,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ20",
+     "SampleName" : "SQ20",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "GCACGGAC+GTCTCGCA",
+       "MismatchCounts" : {
+        "0" : 204545,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 204545,
+     "Yield" : 49908980,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 24954490,
+       "YieldQ30" : 23025121,
+       "QualityScoreSum" : 895815586,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 24954490,
+       "YieldQ30" : 22161497,
+       "QualityScoreSum" : 874836295,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ21",
+     "SampleName" : "SQ21",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "GGTACCTT+AAGACGTC",
+       "MismatchCounts" : {
+        "0" : 322711,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 322711,
+     "Yield" : 78741484,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 39370742,
+       "YieldQ30" : 36389528,
+       "QualityScoreSum" : 1414872158,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 39370742,
+       "YieldQ30" : 35349813,
+       "QualityScoreSum" : 1389531276,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ22",
+     "SampleName" : "SQ22",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "AACGTTCC+GGAGTACT",
+       "MismatchCounts" : {
+        "0" : 221122,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 221122,
+     "Yield" : 53953768,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 26976884,
+       "YieldQ30" : 24953617,
+       "QualityScoreSum" : 970002985,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 26976884,
+       "YieldQ30" : 24141904,
+       "QualityScoreSum" : 950163596,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ23",
+     "SampleName" : "SQ23",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "GCAGAATT+ACCGGCCA",
+       "MismatchCounts" : {
+        "0" : 173638,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 173638,
+     "Yield" : 42367672,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 21183836,
+       "YieldQ30" : 19633805,
+       "QualityScoreSum" : 762585017,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 21183836,
+       "YieldQ30" : 19003645,
+       "QualityScoreSum" : 747229366,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ24",
+     "SampleName" : "SQ24",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "ATGAGGCC+GTTAATTG",
+       "MismatchCounts" : {
+        "0" : 171961,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 171961,
+     "Yield" : 41958484,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 20979242,
+       "YieldQ30" : 19418487,
+       "QualityScoreSum" : 754633456,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 20979242,
+       "YieldQ30" : 18832484,
+       "QualityScoreSum" : 740231409,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ25",
+     "SampleName" : "SQ25",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "ACTAAGAT+AACCGCGG",
+       "MismatchCounts" : {
+        "0" : 178979,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 178979,
+     "Yield" : 43670876,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 21835438,
+       "YieldQ30" : 20175374,
+       "QualityScoreSum" : 784565104,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 21835438,
+       "YieldQ30" : 19506129,
+       "QualityScoreSum" : 768363563,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ26",
+     "SampleName" : "SQ26",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "GTCGGAGC+GGTTATAA",
+       "MismatchCounts" : {
+        "0" : 190148,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 190148,
+     "Yield" : 46396112,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 23198056,
+       "YieldQ30" : 21390012,
+       "QualityScoreSum" : 832375395,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 23198056,
+       "YieldQ30" : 20677240,
+       "QualityScoreSum" : 814967659,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ27",
+     "SampleName" : "SQ27",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "CTTGGTAT+CCAAGTCC",
+       "MismatchCounts" : {
+        "0" : 227592,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 227592,
+     "Yield" : 55532448,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 27766224,
+       "YieldQ30" : 25728572,
+       "QualityScoreSum" : 999519452,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 27766224,
+       "YieldQ30" : 25098398,
+       "QualityScoreSum" : 983947128,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ28",
+     "SampleName" : "SQ28",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "TCCAACGC+TTGGACTT",
+       "MismatchCounts" : {
+        "0" : 284989,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 284989,
+     "Yield" : 69537316,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 34768658,
+       "YieldQ30" : 32128782,
+       "QualityScoreSum" : 1249373410,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 34768658,
+       "YieldQ30" : 31245327,
+       "QualityScoreSum" : 1227589401,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ29",
+     "SampleName" : "SQ29",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "CCGTGAAG+CAGTGGAT",
+       "MismatchCounts" : {
+        "0" : 252333,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 252333,
+     "Yield" : 61569252,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 30784626,
+       "YieldQ30" : 28510460,
+       "QualityScoreSum" : 1107732006,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 30784626,
+       "YieldQ30" : 27186455,
+       "QualityScoreSum" : 1075795307,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ3",
+     "SampleName" : "SQ3",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "GGACTTGG+CGCAGACG",
+       "MismatchCounts" : {
+        "0" : 192668,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 192668,
+     "Yield" : 47010992,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 23505496,
+       "YieldQ30" : 21718419,
+       "QualityScoreSum" : 844497858,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 23505496,
+       "YieldQ30" : 21026897,
+       "QualityScoreSum" : 827729815,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ30",
+     "SampleName" : "SQ30",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "TTACAGGA+TGACAAGC",
+       "MismatchCounts" : {
+        "0" : 260230,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 260230,
+     "Yield" : 63496120,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 31748060,
+       "YieldQ30" : 29409053,
+       "QualityScoreSum" : 1142582620,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 31748060,
+       "YieldQ30" : 28333502,
+       "QualityScoreSum" : 1116423084,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ31",
+     "SampleName" : "SQ31",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "GGCATTCT+CTAGCTTG",
+       "MismatchCounts" : {
+        "0" : 237477,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 237477,
+     "Yield" : 57944388,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 28972194,
+       "YieldQ30" : 26856434,
+       "QualityScoreSum" : 1043116385,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 28972194,
+       "YieldQ30" : 26096208,
+       "QualityScoreSum" : 1024390355,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ32",
+     "SampleName" : "SQ32",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "AATGCCTC+TCGATCCA",
+       "MismatchCounts" : {
+        "0" : 178561,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 178561,
+     "Yield" : 43568884,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 21784442,
+       "YieldQ30" : 20190500,
+       "QualityScoreSum" : 784228608,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 21784442,
+       "YieldQ30" : 19733375,
+       "QualityScoreSum" : 772920110,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ33",
+     "SampleName" : "SQ33",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "TACCGAGG+CCTGAACT",
+       "MismatchCounts" : {
+        "0" : 202827,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 202827,
+     "Yield" : 49489788,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 24744894,
+       "YieldQ30" : 22883913,
+       "QualityScoreSum" : 889614803,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 24744894,
+       "YieldQ30" : 22075725,
+       "QualityScoreSum" : 869914484,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ34",
+     "SampleName" : "SQ34",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "CGTTAGAA+TTCAGGTC",
+       "MismatchCounts" : {
+        "0" : 267381,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 267381,
+     "Yield" : 65240964,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 32620482,
+       "YieldQ30" : 30235579,
+       "QualityScoreSum" : 1174484264,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 32620482,
+       "YieldQ30" : 29087635,
+       "QualityScoreSum" : 1146658885,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ35",
+     "SampleName" : "SQ35",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "AGCCTCAT+AGTAGAGA",
+       "MismatchCounts" : {
+        "0" : 245381,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 245381,
+     "Yield" : 59872964,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 29936482,
+       "YieldQ30" : 27658904,
+       "QualityScoreSum" : 1075640833,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 29936482,
+       "YieldQ30" : 26644731,
+       "QualityScoreSum" : 1051062914,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ36",
+     "SampleName" : "SQ36",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "GATTCTGC+GACGAGAG",
+       "MismatchCounts" : {
+        "0" : 271481,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 271481,
+     "Yield" : 66241364,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 33120682,
+       "YieldQ30" : 30585692,
+       "QualityScoreSum" : 1189607686,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 33120682,
+       "YieldQ30" : 29540165,
+       "QualityScoreSum" : 1164295812,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ37",
+     "SampleName" : "SQ37",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "TCGTAGTG+AGACTTGG",
+       "MismatchCounts" : {
+        "0" : 252102,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 252102,
+     "Yield" : 61512888,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 30756444,
+       "YieldQ30" : 28492714,
+       "QualityScoreSum" : 1106891603,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 30756444,
+       "YieldQ30" : 27698288,
+       "QualityScoreSum" : 1087230056,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ38",
+     "SampleName" : "SQ38",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "CTACGACA+GAGTCCAA",
+       "MismatchCounts" : {
+        "0" : 240398,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 240398,
+     "Yield" : 58657112,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 29328556,
+       "YieldQ30" : 27135793,
+       "QualityScoreSum" : 1054653376,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 29328556,
+       "YieldQ30" : 26172455,
+       "QualityScoreSum" : 1031248234,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ39",
+     "SampleName" : "SQ39",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "TAAGTGGT+CTTAAGCC",
+       "MismatchCounts" : {
+        "0" : 258066,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 258066,
+     "Yield" : 62968104,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 31484052,
+       "YieldQ30" : 29152418,
+       "QualityScoreSum" : 1132753351,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 31484052,
+       "YieldQ30" : 28273565,
+       "QualityScoreSum" : 1111249492,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ4",
+     "SampleName" : "SQ4",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "AAGTCCAA+TATGAGTA",
+       "MismatchCounts" : {
+        "0" : 238225,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 238225,
+     "Yield" : 58126900,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 29063450,
+       "YieldQ30" : 26925318,
+       "QualityScoreSum" : 1045948696,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 29063450,
+       "YieldQ30" : 26161870,
+       "QualityScoreSum" : 1027353787,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ40",
+     "SampleName" : "SQ40",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "CGGACAAC+TCCGGATT",
+       "MismatchCounts" : {
+        "0" : 294128,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 294128,
+     "Yield" : 71767232,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 35883616,
+       "YieldQ30" : 33241191,
+       "QualityScoreSum" : 1291447087,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 35883616,
+       "YieldQ30" : 32290014,
+       "QualityScoreSum" : 1268039341,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ41",
+     "SampleName" : "SQ41",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "ATATGGAT+CTGTATTA",
+       "MismatchCounts" : {
+        "0" : 398610,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 398610,
+     "Yield" : 97260840,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 48630420,
+       "YieldQ30" : 45103066,
+       "QualityScoreSum" : 1751510772,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 48630420,
+       "YieldQ30" : 43943116,
+       "QualityScoreSum" : 1722902028,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ42",
+     "SampleName" : "SQ42",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "GCGCAAGC+TCACGCCG",
+       "MismatchCounts" : {
+        "0" : 316683,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 316683,
+     "Yield" : 77270652,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 38635326,
+       "YieldQ30" : 35625909,
+       "QualityScoreSum" : 1386302905,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 38635326,
+       "YieldQ30" : 34371954,
+       "QualityScoreSum" : 1355892384,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ43",
+     "SampleName" : "SQ43",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "AAGATACT+ACTTACAT",
+       "MismatchCounts" : {
+        "0" : 306140,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 306140,
+     "Yield" : 74698160,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 37349080,
+       "YieldQ30" : 34578591,
+       "QualityScoreSum" : 1343740438,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 37349080,
+       "YieldQ30" : 33742285,
+       "QualityScoreSum" : 1323163435,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ44",
+     "SampleName" : "SQ44",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "GGAGCGTC+GTCCGTGC",
+       "MismatchCounts" : {
+        "0" : 256728,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 256728,
+     "Yield" : 62641632,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 31320816,
+       "YieldQ30" : 28970155,
+       "QualityScoreSum" : 1125960863,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 31320816,
+       "YieldQ30" : 27809126,
+       "QualityScoreSum" : 1097787340,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ45",
+     "SampleName" : "SQ45",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "ATGGCATG+AAGGTACC",
+       "MismatchCounts" : {
+        "0" : 255377,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 255377,
+     "Yield" : 62311988,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 31155994,
+       "YieldQ30" : 28750303,
+       "QualityScoreSum" : 1118484430,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 31155994,
+       "YieldQ30" : 27561855,
+       "QualityScoreSum" : 1089707837,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ46",
+     "SampleName" : "SQ46",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "GCAATGCA+GGAACGTT",
+       "MismatchCounts" : {
+        "0" : 287054,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 287054,
+     "Yield" : 70041176,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 35020588,
+       "YieldQ30" : 32376263,
+       "QualityScoreSum" : 1258774646,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 35020588,
+       "YieldQ30" : 31348188,
+       "QualityScoreSum" : 1233697767,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ47",
+     "SampleName" : "SQ47",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "GTTCCAAT+AATTCTGC",
+       "MismatchCounts" : {
+        "0" : 242454,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 242454,
+     "Yield" : 59158776,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 29579388,
+       "YieldQ30" : 27397571,
+       "QualityScoreSum" : 1064373143,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 29579388,
+       "YieldQ30" : 26683767,
+       "QualityScoreSum" : 1046883064,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ48",
+     "SampleName" : "SQ48",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "ACCTTGGC+GGCCTCAT",
+       "MismatchCounts" : {
+        "0" : 206554,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 206554,
+     "Yield" : 50399176,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 25199588,
+       "YieldQ30" : 23180801,
+       "QualityScoreSum" : 902762669,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 25199588,
+       "YieldQ30" : 22439289,
+       "QualityScoreSum" : 884737184,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ49",
+     "SampleName" : "SQ49",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "ATATCTCG+ATCTTAGT",
+       "MismatchCounts" : {
+        "0" : 332681,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 332681,
+     "Yield" : 81174164,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 40587082,
+       "YieldQ30" : 37591190,
+       "QualityScoreSum" : 1460505129,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 40587082,
+       "YieldQ30" : 36410530,
+       "QualityScoreSum" : 1431504115,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ5",
+     "SampleName" : "SQ5",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "ATCCACTG+AGGTGCGT",
+       "MismatchCounts" : {
+        "0" : 150665,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 150665,
+     "Yield" : 36762260,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 18381130,
+       "YieldQ30" : 16950440,
+       "QualityScoreSum" : 659573659,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 18381130,
+       "YieldQ30" : 16462698,
+       "QualityScoreSum" : 647631495,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ50",
+     "SampleName" : "SQ50",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "GCGCTCTA+GCTCCGAC",
+       "MismatchCounts" : {
+        "0" : 214250,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 214250,
+     "Yield" : 52277000,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 26138500,
+       "YieldQ30" : 24164749,
+       "QualityScoreSum" : 939445160,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 26138500,
+       "YieldQ30" : 23409290,
+       "QualityScoreSum" : 921059047,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ51",
+     "SampleName" : "SQ51",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "AACAGGTT+ATACCAAG",
+       "MismatchCounts" : {
+        "0" : 283106,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 283106,
+     "Yield" : 69077864,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 34538932,
+       "YieldQ30" : 31993854,
+       "QualityScoreSum" : 1242970561,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 34538932,
+       "YieldQ30" : 31155681,
+       "QualityScoreSum" : 1222419695,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ52",
+     "SampleName" : "SQ52",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "GGTGAACC+GCGTTGGA",
+       "MismatchCounts" : {
+        "0" : 333259,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 333259,
+     "Yield" : 81315196,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 40657598,
+       "YieldQ30" : 37598403,
+       "QualityScoreSum" : 1461560966,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 40657598,
+       "YieldQ30" : 36554468,
+       "QualityScoreSum" : 1435641889,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ53",
+     "SampleName" : "SQ53",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "CAACAATG+CTTCACGG",
+       "MismatchCounts" : {
+        "0" : 282204,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 282204,
+     "Yield" : 68857776,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 34428888,
+       "YieldQ30" : 31876070,
+       "QualityScoreSum" : 1238617993,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 34428888,
+       "YieldQ30" : 30656767,
+       "QualityScoreSum" : 1209071007,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ54",
+     "SampleName" : "SQ54",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "TGGTGGCA+TCCTGTAA",
+       "MismatchCounts" : {
+        "0" : 269235,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 269235,
+     "Yield" : 65693340,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 32846670,
+       "YieldQ30" : 30381993,
+       "QualityScoreSum" : 1181016614,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 32846670,
+       "YieldQ30" : 29320159,
+       "QualityScoreSum" : 1155189198,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ55",
+     "SampleName" : "SQ55",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "AGGCAGAG+AGAATGCC",
+       "MismatchCounts" : {
+        "0" : 292252,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 292252,
+     "Yield" : 71309488,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 35654744,
+       "YieldQ30" : 32950091,
+       "QualityScoreSum" : 1281172749,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 35654744,
+       "YieldQ30" : 31700992,
+       "QualityScoreSum" : 1250872646,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ56",
+     "SampleName" : "SQ56",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "GAATGAGA+GAGGCATT",
+       "MismatchCounts" : {
+        "0" : 208552,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 208552,
+     "Yield" : 50886688,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 25443344,
+       "YieldQ30" : 23483268,
+       "QualityScoreSum" : 913590348,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 25443344,
+       "YieldQ30" : 22668866,
+       "QualityScoreSum" : 893849160,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ57",
+     "SampleName" : "SQ57",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "TGCGGCGT+CCTCGGTA",
+       "MismatchCounts" : {
+        "0" : 220794,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 220794,
+     "Yield" : 53873736,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 26936868,
+       "YieldQ30" : 24831448,
+       "QualityScoreSum" : 966226177,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 26936868,
+       "YieldQ30" : 23755418,
+       "QualityScoreSum" : 940207448,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ58",
+     "SampleName" : "SQ58",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "CATAATAC+TTCTAACG",
+       "MismatchCounts" : {
+        "0" : 324367,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 324367,
+     "Yield" : 79145548,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 39572774,
+       "YieldQ30" : 36588347,
+       "QualityScoreSum" : 1422541644,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 39572774,
+       "YieldQ30" : 35601644,
+       "QualityScoreSum" : 1398519525,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ59",
+     "SampleName" : "SQ59",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "GATCTATC+ATGAGGCT",
+       "MismatchCounts" : {
+        "0" : 359248,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 359248,
+     "Yield" : 87656512,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 43828256,
+       "YieldQ30" : 40632259,
+       "QualityScoreSum" : 1578039498,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 43828256,
+       "YieldQ30" : 39246659,
+       "QualityScoreSum" : 1544224407,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ6",
+     "SampleName" : "SQ6",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "GCTTGTCA+GAACATAC",
+       "MismatchCounts" : {
+        "0" : 237029,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 237029,
+     "Yield" : 57835076,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 28917538,
+       "YieldQ30" : 26763955,
+       "QualityScoreSum" : 1040123831,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 28917538,
+       "YieldQ30" : 25909470,
+       "QualityScoreSum" : 1019370294,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ60",
+     "SampleName" : "SQ60",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "AGCTCGCT+GCAGAATC",
+       "MismatchCounts" : {
+        "0" : 252885,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 252885,
+     "Yield" : 61703940,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 30851970,
+       "YieldQ30" : 28531239,
+       "QualityScoreSum" : 1109122534,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 30851970,
+       "YieldQ30" : 27665785,
+       "QualityScoreSum" : 1087990456,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ61",
+     "SampleName" : "SQ61",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "CGGAACTG+CACTACGA",
+       "MismatchCounts" : {
+        "0" : 259229,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 259229,
+     "Yield" : 63251876,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 31625938,
+       "YieldQ30" : 29293392,
+       "QualityScoreSum" : 1138100786,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 31625938,
+       "YieldQ30" : 28372990,
+       "QualityScoreSum" : 1115525965,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ62",
+     "SampleName" : "SQ62",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "TAAGGTCA+TGTCGTAG",
+       "MismatchCounts" : {
+        "0" : 365269,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 365269,
+     "Yield" : 89125636,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 44562818,
+       "YieldQ30" : 41278392,
+       "QualityScoreSum" : 1603663615,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 44562818,
+       "YieldQ30" : 39653540,
+       "QualityScoreSum" : 1564185228,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ63",
+     "SampleName" : "SQ63",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "TTGCCTAG+ACCACTTA",
+       "MismatchCounts" : {
+        "0" : 182959,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 182959,
+     "Yield" : 44641996,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 22320998,
+       "YieldQ30" : 20680311,
+       "QualityScoreSum" : 803324902,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 22320998,
+       "YieldQ30" : 20110966,
+       "QualityScoreSum" : 789326384,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ64",
+     "SampleName" : "SQ64",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "CCATTCGA+GTTGTCCG",
+       "MismatchCounts" : {
+        "0" : 313646,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 313646,
+     "Yield" : 76529624,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 38264812,
+       "YieldQ30" : 35365810,
+       "QualityScoreSum" : 1375032190,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 38264812,
+       "YieldQ30" : 34337753,
+       "QualityScoreSum" : 1349924797,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ65",
+     "SampleName" : "SQ65",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "ACACTAAG+ATCCATAT",
+       "MismatchCounts" : {
+        "0" : 184462,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 184462,
+     "Yield" : 45008728,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 22504364,
+       "YieldQ30" : 20799885,
+       "QualityScoreSum" : 808806507,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 22504364,
+       "YieldQ30" : 20201290,
+       "QualityScoreSum" : 794206425,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ66",
+     "SampleName" : "SQ66",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "GTGTCGGA+GCTTGCGC",
+       "MismatchCounts" : {
+        "0" : 246126,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 246126,
+     "Yield" : 60054744,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 30027372,
+       "YieldQ30" : 27672779,
+       "QualityScoreSum" : 1077062638,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 30027372,
+       "YieldQ30" : 26377222,
+       "QualityScoreSum" : 1045914761,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ67",
+     "SampleName" : "SQ67",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "TTCCTGTT+AGTATCTT",
+       "MismatchCounts" : {
+        "0" : 367687,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 367687,
+     "Yield" : 89715628,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 44857814,
+       "YieldQ30" : 41517179,
+       "QualityScoreSum" : 1613448545,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 44857814,
+       "YieldQ30" : 40459483,
+       "QualityScoreSum" : 1587284288,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ68",
+     "SampleName" : "SQ68",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "CCTTCACC+GACGCTCC",
+       "MismatchCounts" : {
+        "0" : 306749,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 306749,
+     "Yield" : 74846756,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 37423378,
+       "YieldQ30" : 34628508,
+       "QualityScoreSum" : 1345845712,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 37423378,
+       "YieldQ30" : 33538885,
+       "QualityScoreSum" : 1319130654,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ69",
+     "SampleName" : "SQ69",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "GCCACAGG+CATGCCAT",
+       "MismatchCounts" : {
+        "0" : 248264,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 248264,
+     "Yield" : 60576416,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 30288208,
+       "YieldQ30" : 28013523,
+       "QualityScoreSum" : 1088965647,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 30288208,
+       "YieldQ30" : 26862096,
+       "QualityScoreSum" : 1061052282,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ7",
+     "SampleName" : "SQ7",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "CAAGCTAG+ACATAGCG",
+       "MismatchCounts" : {
+        "0" : 168571,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 168571,
+     "Yield" : 41131324,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 20565662,
+       "YieldQ30" : 19030467,
+       "QualityScoreSum" : 739601808,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 20565662,
+       "YieldQ30" : 18341426,
+       "QualityScoreSum" : 722977743,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ70",
+     "SampleName" : "SQ70",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "ATTGTGAA+TGCATTGC",
+       "MismatchCounts" : {
+        "0" : 331998,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 331998,
+     "Yield" : 81007512,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 40503756,
+       "YieldQ30" : 37539573,
+       "QualityScoreSum" : 1458053272,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 40503756,
+       "YieldQ30" : 36566996,
+       "QualityScoreSum" : 1434166302,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ71",
+     "SampleName" : "SQ71",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "ACTCGTGT+ATTGGAAC",
+       "MismatchCounts" : {
+        "0" : 158132,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 158132,
+     "Yield" : 38584208,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 19292104,
+       "YieldQ30" : 17828290,
+       "QualityScoreSum" : 693309273,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 19292104,
+       "YieldQ30" : 17194986,
+       "QualityScoreSum" : 677900671,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ72",
+     "SampleName" : "SQ72",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "GTCTACAC+GCCAAGGT",
+       "MismatchCounts" : {
+        "0" : 210353,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 210353,
+     "Yield" : 51326132,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 25663066,
+       "YieldQ30" : 23741651,
+       "QualityScoreSum" : 922774993,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 25663066,
+       "YieldQ30" : 22945326,
+       "QualityScoreSum" : 903286500,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ73",
+     "SampleName" : "SQ73",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "CAATTAAC+CGAGATAT",
+       "MismatchCounts" : {
+        "0" : 337486,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 337486,
+     "Yield" : 82346584,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 41173292,
+       "YieldQ30" : 38133984,
+       "QualityScoreSum" : 1481591989,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 41173292,
+       "YieldQ30" : 37358174,
+       "QualityScoreSum" : 1462388421,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ74",
+     "SampleName" : "SQ74",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "TGGCCGGT+TAGAGCGC",
+       "MismatchCounts" : {
+        "0" : 161735,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 161735,
+     "Yield" : 39463340,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 19731670,
+       "YieldQ30" : 18216621,
+       "QualityScoreSum" : 708599147,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 19731670,
+       "YieldQ30" : 17547806,
+       "QualityScoreSum" : 692417035,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ75",
+     "SampleName" : "SQ75",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "AGTACTCC+AACCTGTT",
+       "MismatchCounts" : {
+        "0" : 389277,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 389277,
+     "Yield" : 94983588,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 47491794,
+       "YieldQ30" : 43909220,
+       "QualityScoreSum" : 1707154147,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 47491794,
+       "YieldQ30" : 42936335,
+       "QualityScoreSum" : 1682964170,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ76",
+     "SampleName" : "SQ76",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "GACGTCTT+GGTTCACC",
+       "MismatchCounts" : {
+        "0" : 295482,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 295482,
+     "Yield" : 72097608,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 36048804,
+       "YieldQ30" : 33359873,
+       "QualityScoreSum" : 1296375701,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 36048804,
+       "YieldQ30" : 31989640,
+       "QualityScoreSum" : 1263157518,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ77",
+     "SampleName" : "SQ77",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "TGCGAGAC+CATTGTTG",
+       "MismatchCounts" : {
+        "0" : 316095,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 316095,
+     "Yield" : 77127180,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 38563590,
+       "YieldQ30" : 35769573,
+       "QualityScoreSum" : 1388911897,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 38563590,
+       "YieldQ30" : 35001152,
+       "QualityScoreSum" : 1369774547,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ78",
+     "SampleName" : "SQ78",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "CATAGAGT+TGCCACCA",
+       "MismatchCounts" : {
+        "0" : 437346,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 437346,
+     "Yield" : 106712424,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 53356212,
+       "YieldQ30" : 49440892,
+       "QualityScoreSum" : 1920442181,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 53356212,
+       "YieldQ30" : 47445471,
+       "QualityScoreSum" : 1872036380,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ79",
+     "SampleName" : "SQ79",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "ACAGGCGC+CTCTGCCT",
+       "MismatchCounts" : {
+        "0" : 254412,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 254412,
+     "Yield" : 62076528,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 31038264,
+       "YieldQ30" : 28667280,
+       "QualityScoreSum" : 1114856085,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 31038264,
+       "YieldQ30" : 27709788,
+       "QualityScoreSum" : 1091441840,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ8",
+     "SampleName" : "SQ8",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "TGGATCGA+GTGCGATA",
+       "MismatchCounts" : {
+        "0" : 175152,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 175152,
+     "Yield" : 42737088,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 21368544,
+       "YieldQ30" : 19749267,
+       "QualityScoreSum" : 767900652,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 21368544,
+       "YieldQ30" : 18948475,
+       "QualityScoreSum" : 748492984,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ80",
+     "SampleName" : "SQ80",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "GTGAATAT+TCTCATTC",
+       "MismatchCounts" : {
+        "0" : 207497,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 207497,
+     "Yield" : 50629268,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 25314634,
+       "YieldQ30" : 23470197,
+       "QualityScoreSum" : 911531383,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 25314634,
+       "YieldQ30" : 23019427,
+       "QualityScoreSum" : 900358850,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ81",
+     "SampleName" : "SQ81",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "AACTGTAG+ACGCCGCA",
+       "MismatchCounts" : {
+        "0" : 172670,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 172670,
+     "Yield" : 42131480,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 21065740,
+       "YieldQ30" : 19433218,
+       "QualityScoreSum" : 756054624,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 21065740,
+       "YieldQ30" : 18641809,
+       "QualityScoreSum" : 737030329,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ82",
+     "SampleName" : "SQ82",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "GGTCACGA+GTATTATG",
+       "MismatchCounts" : {
+        "0" : 227074,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 227074,
+     "Yield" : 55406056,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 27703028,
+       "YieldQ30" : 25594500,
+       "QualityScoreSum" : 995265932,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 27703028,
+       "YieldQ30" : 24751769,
+       "QualityScoreSum" : 974677793,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ83",
+     "SampleName" : "SQ83",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "CTGCTTCC+GATAGATC",
+       "MismatchCounts" : {
+        "0" : 338567,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 338567,
+     "Yield" : 82610348,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 41305174,
+       "YieldQ30" : 38112358,
+       "QualityScoreSum" : 1482472534,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 41305174,
+       "YieldQ30" : 34812816,
+       "QualityScoreSum" : 1404101680,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ84",
+     "SampleName" : "SQ84",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "TCATCCTT+AGCGAGCT",
+       "MismatchCounts" : {
+        "0" : 423813,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 423813,
+     "Yield" : 103410372,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 51705186,
+       "YieldQ30" : 47820447,
+       "QualityScoreSum" : 1858867755,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 51705186,
+       "YieldQ30" : 46429869,
+       "QualityScoreSum" : 1825051130,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ85",
+     "SampleName" : "SQ85",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "AGGTTATA+CAGTTCCG",
+       "MismatchCounts" : {
+        "0" : 321903,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 321903,
+     "Yield" : 78544332,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 39272166,
+       "YieldQ30" : 36444875,
+       "QualityScoreSum" : 1414841141,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 39272166,
+       "YieldQ30" : 35809241,
+       "QualityScoreSum" : 1398985122,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ86",
+     "SampleName" : "SQ86",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "GAACCGCG+TGACCTTA",
+       "MismatchCounts" : {
+        "0" : 318885,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 318885,
+     "Yield" : 77807940,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 38903970,
+       "YieldQ30" : 36003426,
+       "QualityScoreSum" : 1399192145,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 38903970,
+       "YieldQ30" : 35080279,
+       "QualityScoreSum" : 1376406496,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ87",
+     "SampleName" : "SQ87",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "CTCACCAA+CTAGGCAA",
+       "MismatchCounts" : {
+        "0" : 271825,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 271825,
+     "Yield" : 66325300,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 33162650,
+       "YieldQ30" : 30654665,
+       "QualityScoreSum" : 1191934955,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 33162650,
+       "YieldQ30" : 29743170,
+       "QualityScoreSum" : 1169688759,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ88",
+     "SampleName" : "SQ88",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "TCTGTTGG+TCGAATGG",
+       "MismatchCounts" : {
+        "0" : 92481,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 92481,
+     "Yield" : 22565364,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 11282682,
+       "YieldQ30" : 10409182,
+       "QualityScoreSum" : 405027816,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 11282682,
+       "YieldQ30" : 10066799,
+       "QualityScoreSum" : 396675916,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ89",
+     "SampleName" : "SQ89",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "TATCGCAC+CTTAGTGT",
+       "MismatchCounts" : {
+        "0" : 263979,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 263979,
+     "Yield" : 64410876,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 32205438,
+       "YieldQ30" : 29830334,
+       "QualityScoreSum" : 1158965375,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 32205438,
+       "YieldQ30" : 28840416,
+       "QualityScoreSum" : 1134782295,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ9",
+     "SampleName" : "SQ9",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "AGTTCAGG+CCAACAGA",
+       "MismatchCounts" : {
+        "0" : 222118,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 222118,
+     "Yield" : 54196792,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 27098396,
+       "YieldQ30" : 25086577,
+       "QualityScoreSum" : 974804970,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 27098396,
+       "YieldQ30" : 24471161,
+       "QualityScoreSum" : 959587848,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ90",
+     "SampleName" : "SQ90",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "CGCTATGT+TCCGACAC",
+       "MismatchCounts" : {
+        "0" : 296652,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 296652,
+     "Yield" : 72383088,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 36191544,
+       "YieldQ30" : 33501660,
+       "QualityScoreSum" : 1301876567,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 36191544,
+       "YieldQ30" : 32561538,
+       "QualityScoreSum" : 1278930060,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ91",
+     "SampleName" : "SQ91",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "GTATGTTC+AACAGGAA",
+       "MismatchCounts" : {
+        "0" : 269172,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 269172,
+     "Yield" : 65677968,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 32838984,
+       "YieldQ30" : 30396805,
+       "QualityScoreSum" : 1181262318,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 32838984,
+       "YieldQ30" : 29420874,
+       "QualityScoreSum" : 1157434144,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ92",
+     "SampleName" : "SQ92",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "ACGCACCT+GGTGAAGG",
+       "MismatchCounts" : {
+        "0" : 267652,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 267652,
+     "Yield" : 65307088,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 32653544,
+       "YieldQ30" : 30007894,
+       "QualityScoreSum" : 1169097362,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 32653544,
+       "YieldQ30" : 29327370,
+       "QualityScoreSum" : 1152329325,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ93",
+     "SampleName" : "SQ93",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "TACTCATA+CCTGTGGC",
+       "MismatchCounts" : {
+        "0" : 263297,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 263297,
+     "Yield" : 64244468,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 32122234,
+       "YieldQ30" : 29747378,
+       "QualityScoreSum" : 1155796643,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 32122234,
+       "YieldQ30" : 28892948,
+       "QualityScoreSum" : 1134929806,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ94",
+     "SampleName" : "SQ94",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "CGTCTGCG+TTCACAAT",
+       "MismatchCounts" : {
+        "0" : 320137,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 320137,
+     "Yield" : 78113428,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 39056714,
+       "YieldQ30" : 36148605,
+       "QualityScoreSum" : 1404873553,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 39056714,
+       "YieldQ30" : 35044981,
+       "QualityScoreSum" : 1377922366,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ95",
+     "SampleName" : "SQ95",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "TCGATATC+ACACGAGT",
+       "MismatchCounts" : {
+        "0" : 244240,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 244240,
+     "Yield" : 59594560,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 29797280,
+       "YieldQ30" : 27597962,
+       "QualityScoreSum" : 1072267832,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 29797280,
+       "YieldQ30" : 26646302,
+       "QualityScoreSum" : 1049119505,
+       "TrimmedBases" : 0
+      }
+     ]
+    },
+    {
+     "SampleId" : "SQ96",
+     "SampleName" : "SQ96",
+     "IndexMetrics" : [
+      {
+       "IndexSequence" : "CTAGCGCT+GTGTAGAC",
+       "MismatchCounts" : {
+        "0" : 0,
+        "1" : 0
+       }
+      }
+     ],
+     "NumberReads" : 0,
+     "Yield" : 0,
+     "ReadMetrics" : [
+      {
+       "ReadNumber" : 1,
+       "Yield" : 0,
+       "YieldQ30" : 0,
+       "QualityScoreSum" : 0,
+       "TrimmedBases" : 0
+      },
+      {
+       "ReadNumber" : 2,
+       "Yield" : 0,
+       "YieldQ30" : 0,
+       "QualityScoreSum" : 0,
+       "TrimmedBases" : 0
+      }
+     ]
+    }
+   ],
+   "Undetermined" : {
+    "NumberReads" : 1035702,
+    "Yield" : 252711288,
+    "ReadMetrics" : [
+     {
+      "ReadNumber" : 1,
+      "Yield" : 126355644,
+      "YieldQ30" : 98283213,
+      "QualityScoreSum" : 4117104033,
+      "TrimmedBases" : 0
+     },
+     {
+      "ReadNumber" : 2,
+      "Yield" : 126355644,
+      "YieldQ30" : 86908707,
+      "QualityScoreSum" : 3852799508,
+      "TrimmedBases" : 0
+     }
+    ]
+   }
+  }
+ ],
+ "UnknownBarcodes" : [
+  {
+   "Lane" : 1,
+   "Barcodes" : {
+    "CCCCCCCC+CCCCCCCC" : 5480,
+    "CTGCTTCC+GATAGATT" : 2340,
+    "TCATCCTA+AGCGAGCT" : 2260,
+    "CCTTCACC+GACGCCCC" : 2120,
+    "TGCGAGAC+CATTGTTT" : 1840,
+    "ATTGTGAA+TGCATTTC" : 1400,
+    "TCATCCTT+AGCGAGCC" : 1240,
+    "CGTTAGAA+TTCAGGTT" : 1220,
+    "CATAGAGT+TGCCACCC" : 1220,
+    "AGGCTATA+CAGTTCCG" : 1220,
+    "TCTCTACT+CGCGGTTT" : 1100,
+    "GATCTATC+ATGAGGCC" : 1060,
+    "CATAGAGT+TGCCACTA" : 1020,
+    "CCATTCGA+GTTGTCTG" : 1000,
+    "ATGAGGCC+GTTAATTT" : 1000,
+    "AGGTTATA+CAGTTCTG" : 1000,
+    "GTGAATAT+TCTCATTT" : 980,
+    "GGTACCTT+AAGACGTT" : 980,
+    "AGTACTCC+AACCTGTA" : 980,
+    "TGGTGGCA+CCCTGTAA" : 960,
+    "GACGCCTT+GGTTCACC" : 960,
+    "CCATTCGA+GTTGTTCG" : 960,
+    "AGGTTATC+CAGTTCCG" : 960,
+    "ATTGTGAA+TGCATTGT" : 920,
+    "AGTCTCAT+AGTAGAGA" : 920,
+    "GGAGCGTC+GTCTGTGC" : 880,
+    "CGGACAAC+TCCGGCTT" : 880,
+    "TTCCTGTT+AGTATTTT" : 860,
+    "GTGAACCA+GCGTTGGA" : 860,
+    "AGTACTCC+AACTTGTT" : 860,
+    "TTATAACC+GATATCGC" : 840,
+    "GGTACCTT+AAGACGCC" : 840,
+    "GGAGCGTC+GTTCGTGC" : 840,
+    "CATAGAGT+TGCCATCA" : 820,
+    "GGTCACGA+GTATTATT" : 800,
+    "GCCACAGG+CATGCTAT" : 800,
+    "CATAGAGT+TGTCACCA" : 800,
+    "CATAGAGT+TGCCACAA" : 800,
+    "ATGTAAGT+ACTCTATT" : 800,
+    "AGCTCGCT+GCAGAATT" : 800,
+    "TTGCCTAG+ACTACTTA" : 780,
+    "TTATAACC+GATATTGA" : 780,
+    "CTCTCGTC+TATAATCT" : 780,
+    "ATATGGAT+CTGTATTT" : 780,
+    "TCGATATC+ACACGCGT" : 760,
+    "GTGTCGGA+GCTTGTGC" : 760,
+    "GGCATTCT+CTAGCTTT" : 760,
+    "CATAATAC+TTCTAATG" : 760,
+    "GCGCTCTA+GCCCCGAC" : 740,
+    "GACGTCTT+GGCTCACC" : 740,
+    "AACCGCGA+TGACCTTA" : 740,
+    "TCATCCTT+AGTGAGCT" : 720,
+    "CATAGAGT+TGCTACCA" : 720,
+    "CATAGAGC+TGCCACCA" : 720,
+    "AGTACTCC+AACCGTTA" : 720,
+    "TCATCCTT+AGCGCGCT" : 700,
+    "GACGTCTT+GGTTCACT" : 700,
+    "AGGTTATA+CAGTTTCG" : 700,
+    "AACAGGCT+ATACCAAG" : 700,
+    "TTCCTGCT+AGTATCTT" : 680,
+    "GATCTATC+ATGAGGTT" : 680,
+    "GAGCGTCA+GTCCGTGC" : 680,
+    "CAATTAAC+CGAGCTAT" : 680,
+    "AATGTCTC+TCGATCCA" : 680,
+    "GGTTATAA+CAGTTCCG" : 660,
+    "GCGCCCTA+GCTCCGAC" : 660,
+    "CTACGACA+GAGTCTAA" : 660,
+    "CATCCTTA+AGCGAGCT" : 660,
+    "CAACAATG+CTCCACGG" : 660,
+    "AGTACTTC+AACCTGTT" : 660,
+    "AAGATACT+ACTTATAT" : 660,
+    "TCATCCTT+AGCGTGCT" : 640,
+    "GGTGAACC+GCGTTGGC" : 640,
+    "CTGCTTCA+GATAGATC" : 640,
+    "AGTACTCA+AACCTGTT" : 640,
+    "TTGGACTC+GGAAGTAG" : 620,
+    "TCTCTACT+CGCGGCTC" : 620,
+    "TCATTCTT+AGCGAGCT" : 620,
+    "GTCACGAA+GTATTATG" : 620,
+    "GGTGAACC+GCGTTGGT" : 620,
+    "GGTGAACA+GCGTTGGA" : 620,
+    "GCGCAAGC+CCACGCCG" : 620,
+    "ATGGCATG+AAGGTACT" : 620,
+    "TCCAACGC+TTGGATTT" : 600,
+    "TATAGAGT+TGCCACCA" : 600,
+    "TACTCATA+TCTGTGGC" : 600,
+    "TAAGGTCA+TGTCGTAA" : 600,
+    "GTTTCAAT+AATTCTGC" : 600,
+    "GCGCTCTA+GCTCTGAC" : 600,
+    "GCGCAAGC+TCACGCTG" : 600,
+    "GATCTATT+ATGAGGCT" : 600,
+    "GAACCGCG+TGACCTTT" : 600,
+    "CTGCTTCC+GATAGATA" : 600,
+    "CGTCTGCG+TTTACAAT" : 600,
+    "CGGACAAC+TCTGGATT" : 600,
+    "CCATTCGA+GTCGTCCG" : 600,
+    "CCATTCGA+GCTGTCCG" : 600,
+    "AGTATTCC+AACCTGTT" : 600,
+    "AGTACTCC+AATCTGTT" : 600,
+    "AGGCAGAG+AGAATGCT" : 600,
+    "AAGATACT+TTACATAC" : 600,
+    "AAAAAAAA+AAAAAAAA" : 600,
+    "TACTCATC+CCTGTGGC" : 580,
+    "GTACTCCA+AACCTGTT" : 580,
+    "GGTGAACC+GTGTTGGA" : 580,
+    "GCACGGAC+GTCTCGCC" : 580,
+    "CTCTCGTT+TATAACCT" : 580,
+    "ACAGGCGC+CTCTGCCC" : 580,
+    "AACAGGTT+ATACTAAG" : 580,
+    "TTCAACGC+TTGGACTT" : 560,
+    "GGTTACGA+GTATTATG" : 560,
+    "GCAATGCA+GGTACGTT" : 560,
+    "GACGTTTT+GGTTCACC" : 560,
+    "CTTGGTAT+CCAAGCCC" : 560,
+    "CGCTATGT+TCTGACAC" : 560,
+    "CCGTGAAG+CAGTGGCT" : 560,
+    "AGTTCAGG+CTAACAGA" : 560,
+    "AGTACTCT+AACCTGTT" : 560,
+    "AGGCAGAA+AGAATGCC" : 560,
+    "AATGCCTC+TCGATCTA" : 560,
+    "AAGATACT+CCTTACAT" : 560,
+    "AACGTTCC+GGAGTATT" : 560,
+    "TTGGACTT+GGAAGCAG" : 540,
+    "TAAGGTCA+TGTCGTAT" : 540,
+    "GTCTACAC+GCTAAGGT" : 540,
+    "GTACCTTA+AAGACGTC" : 540,
+    "GCACGGAC+GTTTCGCA" : 540,
+    "GATTTATC+ATGAGGCT" : 540,
+    "GATTCTGC+GATGAGAG" : 540,
+    "CTCTCGTC+TATAACTT" : 540,
+    "CGTCTGCG+TTCACAAA" : 540,
+    "CATAGCGT+TGCCACCA" : 540,
+    "AGTTCAGG+TCAACAGA" : 540,
+    "AGCTCGCT+GCAGAATA" : 540,
+    "AACTGTAG+ACGCCGCC" : 540,
+    "TTTCTGTT+AGTATCTT" : 520,
+    "TTGCCTAG+CACTTAAC" : 520,
+    "TGCGGCGT+CCTCGGTT" : 520,
+    "TAAGTGGT+TTTAAGCC" : 520,
+    "TAAGGTTA+TGTCGTAG" : 520,
+    "GTTCCAAT+AATTTTGC" : 520,
+    "GGTGAACT+GCGTTGGA" : 520,
+    "GGTACCTT+AAGATGTC" : 520,
+    "GCTTGTCA+GAACATAT" : 520,
+    "GCTCCAAT+AATTCTGC" : 520,
+    "GCAGAATT+ACCGGCTA" : 520,
+    "GACGTCTA+GGTTCACC" : 520,
+    "CTCACCAA+CTAGTCAA" : 520,
+    "CGTCTGCA+TTCACAAT" : 520,
+    "CGCTATAT+TCCGACAC" : 520,
+    "CCTTCACC+GACGCTCT" : 520,
+    "CCGTGAAG+CAGTGGTT" : 520,
+    "CCAAGTCT+AAGGATGC" : 520,
+    "CAAGTCTA+AAGGATGA" : 520,
+    "CAACAATG+CTTCACGA" : 520,
+    "ATATCCCG+ATCTTAGT" : 520,
+    "AGGCAGAG+AGAATGTC" : 520,
+    "ACGTCTTA+GGTTCACC" : 520,
+    "TGGTGGCA+TTCTGTAA" : 500,
+    "TGCGAGAC+TATTGTTG" : 500,
+    "TCTTCACC+GACGCTCC" : 500,
+    "GGTATCTT+AAGACGTC" : 500,
+    "GGAGCGTT+GTCCGTGC" : 500,
+    "GGAGCGTC+GTCCGTGT" : 500,
+    "CTTGGTAT+TCAAGTCC" : 500,
+    "CTGCTTCT+GATAGATC" : 500,
+    "CGGTTATA+CAGTTCCG" : 500,
+    "CGGACAAC+TCCGGTTT" : 500,
+    "CGCTATGT+TTCGACAC" : 500,
+    "CAATTAAC+TGAGATAT" : 500,
+    "ATGTAAGT+ACTTTATG" : 500,
+    "ATGTAAGT+ACTCTCTG" : 500,
+    "ACCTGAAA+TTGGTGAG" : 500,
+    "ACAGGCGC+CTCTGCTT" : 500,
+    "AATAGAGT+TGCCACCA" : 500,
+    "AACGTTTC+GGAGTACT" : 500,
+    "TTCCAATA+AATTCTGC" : 480,
+    "TCGATATC+ACGAGTAC" : 480,
+    "TAAGGTCA+TGTTGTAG" : 480,
+    "TAAGGTCA+TGTCGTCG" : 480,
+    "GTATGTTC+AATAGGAA" : 480,
+    "GGTGAACC+GCGTTGAA" : 480,
+    "GGTGAACC+GCGCTGGA" : 480,
+    "GCTTGTCA+GAACATAA" : 480,
+    "GCAATGCA+GGCACGTT" : 480,
+    "GATCTATC+ATGAGTCT" : 480,
+    "CTGCTTCC+GCTAGATC" : 480,
+    "CTCTCGTC+TATAACCC" : 480,
+    "CGTTAGAA+TTTAGGTC" : 480,
+    "CGGAACTG+CACTACGC" : 480,
+    "CCTTCACA+GACGCTCC" : 480,
+    "CATAGAGT+TTCCACCA" : 480,
+    "CAACAATG+TTTCACGG" : 480,
+    "CAACAATA+CTTCACGG" : 480,
+    "ATGTAAGT+TCTATGAC" : 480,
+    "ATATGGAT+TTGTATTA" : 480,
+    "ATATGGAC+CTGTATTA" : 480,
+    "ATATGGAA+CTGTATTA" : 480,
+    "ATATCTCG+ATCTTCGT" : 480,
+    "ATAGAGTA+TGCCACCA" : 480,
+    "ACAGGCGC+CTCTGTCT" : 480,
+    "AACAGATT+ATACCAAG" : 480,
+    "TTGCTTCC+GATAGATC" : 460,
+    "TTATAACC+GATATCTA" : 460,
+    "TCTAACGC+TTGGACTT" : 460,
+    "TCGTAGTG+AGACTTGA" : 460,
+    "TAAGGCCA+TGTCGTAG" : 460,
+    "GTTCCAAT+AATTCTTC" : 460,
+    "GTGTCGGA+GCTTGCGT" : 460,
+    "GGCATTCT+CTCGCTTG" : 460,
+    "GCAGAATT+CGGCCAAC" : 460,
+    "GATCTGAA+TTGGTGAG" : 460,
+    "GACGTCTT+GGTTTACC" : 460,
+    "GACCTATC+ATGAGGCT" : 460,
+    "CTTGGTAT+CCAAGTCT" : 460,
+    "CGGAACTG+CACTATGA" : 460,
+    "CGCTATGT+TCCGACAT" : 460,
+    "CCTTCACC+GACGCTTC" : 460,
+    "ATGTAAGT+CCTCTATG" : 460,
+    "ATGTAAGT+ACCCTATG" : 460,
+    "ATGGCATG+AGGTACCA" : 460,
+    "ATATTTCG+ATCTTAGT" : 460,
+    "AGCCTCAT+AGTAGAGC" : 460,
+    "ACGCACCT+GGTGACGG" : 460,
+    "ACCTTGGC+GGTCTCAT" : 460,
+    "ACCTTGGC+GGCCTTAT" : 460,
+    "ACACTAAG+ATTCATAT" : 460,
+    "TTGCCTAG+ACCACTTT" : 440,
+    "TTCTTGTT+AGTATCTT" : 440,
+    "TTATAACC+GATATCGT" : 440,
+    "TCTCCTTA+AGCGAGCT" : 440,
+    "TCGATATC+ACACGTGT" : 440,
+    "TCATCTTT+AGCGAGCT" : 440,
+    "TCATCCTT+AGCGAGTT" : 440,
+    "TACTCATA+CTTGTGGC" : 440,
+    "TACTCATA+CTGTGGCA" : 440,
+    "TAAGTGGT+CTTAATCC" : 440,
+    "TAAGTGGT+CTTAAGCT" : 440,
+    "GTCTACAC+GTCAAGGT" : 440,
+    "GGTGAACC+GCGTTTGA" : 440,
+    "GGCTTAAG+TCGTGATC" : 440,
+    "GCGCAAGC+TCACGCCC" : 440,
+    "GCATTCTA+CTAGCTTG" : 440,
+    "GCAGAATT+ACTGGCCA" : 440,
+    "GATCTATC+ATGAGACT" : 440,
+    "GACGTCTT+GGTTCATC" : 440,
+    "GACCTGAA+TTGGTGTG" : 440,
+    "GAACCGCG+TGACTTTA" : 440,
+    "CTGTTTCC+GATAGATC" : 440,
+    "CTGCTTTC+GATAGATC" : 440,
+    "CTGCTTCC+GATAGACC" : 440,
+    "CTCCTGTT+AGTATCTT" : 440,
+    "CTACGACA+GCGTCCAA" : 440,
+    "CGCTATGT+TCCGATAC" : 440,
+    "CGCCTGCG+TTCACAAT" : 440,
+    "CCATTCAA+GTTGTCCG" : 440,
+    "CCAAGTCT+AAGGATGT" : 440,
+    "CATAATAC+TCCTAACG" : 440,
+    "ATTGTGAA+TGCATCGC" : 440,
+    "ATATGAAT+CTGTATTA" : 440,
+    "AGTTATAA+CAGTTCCG" : 440,
+    "AGGTTATA+TAGTTCCG" : 440,
+    "AGCTTGCT+GCAGAATC" : 440,
+    "AGCTCGCT+GCAGACTC" : 440,
+    "AACGTTCC+GGCGTACT" : 440,
+    "TTCCTGTA+AGTATCTT" : 420,
+    "TTATAACA+GATATCGA" : 420,
+    "TGTTAGAA+TTCAGGTC" : 420,
+    "TGGTTGCA+TCCTGTAA" : 420,
+    "TGGATCGA+GTGCGTTA" : 420,
+    "TGGATCGA+GTGCGATT" : 420,
+    "TGCGAGAC+ATTGTTGA" : 420,
+    "TCCAACGC+TTGGTCTT" : 420,
+    "TCATCCTT+AGCGAGCA" : 420,
+    "TACTGAGG+CCTGAACT" : 420,
+    "TAATTAAC+CGAGATAT" : 420,
+    "TAATACAG+ATATTTAC" : 420,
+    "GGCAGAGA+AGAATGCC" : 420,
+    "GGAGCGTC+GTCCGCGC" : 420,
+    "GCTCGTCA+GAACATAC" : 420,
+    "GCGCTCTA+GCTTCGAC" : 420,
+    "GCCACAGG+CATGTCAT" : 420,
+    "GCAGAATT+ACCGGCCC" : 420,
+    "GACTTGGA+CGCAGACG" : 420,
+    "CCGTGAAG+TAGTGGAT" : 420,
+    "CATAGTGT+TGCCACCA" : 420,
+    "CATAGAGA+TGCCACCA" : 420,
+    "ATTGTGAA+TGTATTGC" : 420,
+    "ATTCTGCA+GACGAGAG" : 420,
+    "ATCTATCA+ATGAGGCT" : 420,
+    "AGGTTATA+CAGTTCCT" : 420,
+    "AGCCTCAT+AGTAGAGT" : 420,
+    "AGATACTA+ACTTACAT" : 420,
+    "ACAGGCGC+TTCTGCCT" : 420,
+    "AATGCCTC+TCGATTCA" : 420,
+    "TTATCCTT+AGCGAGCT" : 400,
+    "TGGTGGCA+TCTTGTAA" : 400,
+    "TGGTGGCA+TCCTGTCA" : 400,
+    "TGCTATGT+TCCGACAC" : 400,
+    "TGCGGCGT+CCTCGGTC" : 400,
+    "TGCGAGAC+CATTGTTA" : 400,
+    "TCGTAGTG+AGCCTTGG" : 400,
+    "TCATCCTT+ATCGAGCT" : 400,
+    "TCAAGTCT+AAGGATGA" : 400,
+    "TATGTTCA+AACAGGAA" : 400,
+    "TACTCATA+CCTGTGGT" : 400,
+    "TACCGAGG+TCTGAACT" : 400,
+    "TAAGTGGC+CTTAAGCC" : 400,
+    "TAAGGTAA+TGTCGTAG" : 400,
+    "GTGAATAT+TCCCATTC" : 400,
+    "GTATGTTT+AACAGGAA" : 400,
+    "GGTACCTT+CAGACGTC" : 400,
+    "GGTACCTT+AAGACGTA" : 400,
+    "GGAGCGTC+GTCCGTTC" : 400,
+    "GCCACAGA+CATGCCAT" : 400,
+    "GACGTCTT+GGTTCACA" : 400,
+    "GACGTCCT+GGTTCACC" : 400,
+    "GACCTGAA+CTGGTGAG" : 400,
+    "GAACCGCG+TGTCCTTA" : 400,
+    "CTCCCGTC+TATAACCT" : 400,
+    "CGGCGTGA+GTGCCTGT" : 400,
+    "CGCTATGT+TCCGACAA" : 400,
+    "CCAAGTCT+ACGGATGA" : 400,
+    "CATAATAC+TTCTAACT" : 400,
+    "CAAGCTAG+ACATAGTG" : 400,
+    "CAACAATG+CTTCATGG" : 400,
+    "ATTGTAAA+TGCATTGC" : 400,
+    "ATGTAAGC+ACTCTATG" : 400,
+    "ATCCACTG+AGGTGTGT" : 400,
+    "ATCCACTA+AGGTGCGT" : 400,
+    "ATATCTCG+ATTTTAGT" : 400,
+    "ATATCTCG+ATCTTTGT" : 400,
+    "ATATCTCA+ATCTTAGT" : 400,
+    "AGTTCAGA+CCAACAGA" : 400,
+    "AGTACTCC+ACCTGTTA" : 400,
+    "AGCTCGCC+GCAGAATC" : 400,
+    "ACGCACCT+GGTGAAGA" : 400,
+    "ACACTAAA+ATCCATAT" : 400,
+    "AATGCCTC+TCGATCCC" : 400,
+    "AACAGGTT+ATATCAAG" : 400,
+    "TCTCTACT+CTCGGTTC" : 380,
+    "TCGATATT+ACACGAGT" : 380,
+    "TCCAACGC+TTTGACTT" : 380,
+    "TCATCTTA+AGCGAGCT" : 380,
+    "TCATCCTT+CGCGAGCT" : 380,
+    "TCACCCTT+AGCGAGCT" : 380,
+    "TCACCAAA+CTAGGCAA" : 380,
+    "TATCGCAC+CTCAGTGT" : 380,
+    "TATCACAC+CTTAGTGT" : 380,
+    "TACTCATA+CCTGTGTC" : 380,
+    "TAAGTGGT+CTTAAGTC" : 380,
+    "GTTCCAAT+AATTCTGT" : 380,
+    "GTGTTGGA+GCTTGCGC" : 380,
+    "GTATATTC+AACAGGAA" : 380,
+    "GGTGAATC+GCGTTGGA" : 380,
+    "GGTGAAAC+GCGTTGGA" : 380,
+    "GGTCACGC+GTATTATG" : 380,
+    "GGTCACGA+GTCTTATG" : 380,
+    "GCTTGTTA+GAACATAC" : 380,
+    "GCGCTCTA+GCTCCGAT" : 380,
+    "GCGCAAGC+TCATGCCG" : 380,
+    "GCATGTTC+AACAGGAA" : 380,
+    "GATCTATC+ATTAGGCT" : 380,
+    "GATCCTGC+GACGAGAG" : 380,
+    "GACTTGAA+TTGGTGAG" : 380,
+    "GACCTGAA+TTGGTGCG" : 380,
+    "GACCTAAA+TTGGTGAG" : 380,
+    "GAACCGCG+TGATCTTA" : 380,
+    "GAACCGCG+TGACCTAA" : 380,
+    "CTTTCACC+GACGCTCC" : 380,
+    "CTTGGTAT+CCAAGTTC" : 380,
+    "CTGCTTCC+GATAGTTC" : 380,
+    "CTGCTTCC+GACAGATC" : 380,
+    "CTCACCAA+TTAGGCAA" : 380,
+    "CGTTTGCG+TTCACAAT" : 380,
+    "CGTTAAAA+TTCAGGTC" : 380,
+    "CGGACAAC+CCCGGATT" : 380,
+    "CGCACCTA+GGTGAAGG" : 380,
+    "CCGTGCAG+CAGTGGAT" : 380,
+    "CCATTCGA+GTTTTCCG" : 380,
+    "CCAAGTCT+AAGGCTGA" : 380,
+    "CATAATAA+TTCTAACG" : 380,
+    "CAATGCAA+GGAACGTT" : 380,
+    "ATGGCATA+AAGGTACC" : 380,
+    "ATGAGGCC+GCTAATTG" : 380,
+    "ATATGGCT+CTGTATTA" : 380,
+    "ATATCTCG+ATCTTATT" : 380,
+    "AGGCAGAG+AGAATTCC" : 380,
+    "ACTCGTGT+ATTGGAAT" : 380,
+    "ACTAAGAT+AACTGCGG" : 380,
+    "ACGTACCT+GGTGAAGG" : 380,
+    "AAGTCCAA+TCTGAGTA" : 380,
+    "AAGTCAAA+TATGAGTA" : 380,
+    "TTGAACTC+GGAAGCAG" : 360,
+    "TTATAACT+GATATCGA" : 360,
+    "TTATAACC+TATATCGA" : 360,
+    "TGTCGGAA+GCTTGCGC" : 360,
+    "TGGTCGGT+TAGAGCGC" : 360,
+    "TGGATCGA+GTGCGCTA" : 360,
+    "TGCGGCGT+TCTCGGTA" : 360,
+    "TGCGGCGT+CTTCGGTA" : 360,
+    "TGCGAGAC+CACTGTTG" : 360,
+    "TCTCTACT+TGCGGTTC" : 360,
+    "TCTACACA+GCCAAGGT" : 360,
+    "TCGTAGTA+AGACTTGG" : 360,
+    "TCATTCGA+GTTGTCCG" : 360,
+    "TCATCCTT+AGCGATCT" : 360,
+    "TCATCCTC+AGCGAGCT" : 360,
+    "TCATACTT+AGCGAGCT" : 360,
+    "TATGGATA+CTGTATTA" : 360,
+    "TATCGCAA+CTTAGTGT" : 360,
+    "TAAGGTCA+TGTCTTAG" : 360,
+    "TAAGGTCA+TGTCATAG" : 360,
+    "TAAGGTCA+TGCCGTAG" : 360,
+    "GTGTCGGA+GCTCGCGC" : 360,
+    "GTATGTTA+AACAGGAA" : 360,
+    "GGTCACGA+GCATTATG" : 360,
+    "GGCATTCT+CTAGCTCG" : 360,
+    "GCTCTATC+ATGAGGCT" : 360,
+    "GCTCGCTA+GCAGAATC" : 360,
+    "GCGCAAGC+TTACGCCG" : 360,
+    "GATCTCTC+ATGAGGCT" : 360,
+    "CTTGGTAT+CAAGTCCA" : 360,
+    "CTCTCATC+TATAACCT" : 360,
+    "CGTGAAGA+CAGTGGAT" : 360,
+    "CGGAACTG+CATTACGA" : 360,
+    "CGCTATGT+TCCTACAC" : 360,
+    "CCTTCACC+GATGCTCC" : 360,
+    "CCTTCACC+GACGCACC" : 360,
+    "CATTCGAA+GTTGTCCG" : 360,
+    "CATAATAC+TTCTAACA" : 360,
+    "CAATTAAT+CGAGATAT" : 360,
+    "ATATGGTT+CTGTATTA" : 360,
+    "ATATGGAT+CTGTTTTA" : 360,
+    "ATAATACA+TTCTAACG" : 360,
+    "AGGTTCTA+CAGTTCCG" : 360,
+    "AGGCAGAG+AGAATGCA" : 360,
+    "AGCCCCAT+AGTAGAGA" : 360,
+    "AGACTCAT+AGTAGAGA" : 360,
+    "ACGTTCCA+GGAGTACT" : 360,
+    "ACGCACCT+GGTGATGG" : 360,
+    "AATGCCTC+CCGATCCA" : 360,
+    "AAGATAAT+ACTTACAT" : 360,
+    "TTGGTCTC+GGAAGCAG" : 340,
+    "TTATAACC+GCTATCGA" : 340,
+    "TTATAACC+GATATAGA" : 340,
+    "TTACAGGA+TGTCAAGC" : 340,
+    "TTACAGGA+TGACAAGT" : 340,
+    "TGGTGGCA+TCCTGCAA" : 340,
+    "TGGATCGA+GTGTGATA" : 340,
+    "TGCGAGAC+CATTTTTG" : 340,
+    "TCGTAGTG+AGACTTTG" : 340,
+    "TCGATATC+ACACGAGC" : 340,
+    "TCCAACGC+TTGGCCTT" : 340,
+    "TATCGCAC+CTTCGTGT" : 340,
+    "TAAGTGGA+CTTAAGCC" : 340,
+    "TAAGGTCA+TATCGTAG" : 340,
+    "TAAGGTCA+CGTCGTAG" : 340,
+    "TAACAATG+CTTCACGG" : 340,
+    "GTGTCGGA+GCTTGCTC" : 340,
+    "GTGTATAT+TCTCATTC" : 340,
+    "GTCTATAC+GCCAAGGT" : 340,
+    "GTATGTTC+AACAGAAA" : 340,
+    "GGTCTTGG+CGCAGACG" : 340,
+    "GGCATTCT+CTAGTTTG" : 340,
+    "GGCATTCC+CTAGCTTG" : 340,
+    "GCCGTCTT+GGTTCACC" : 340,
+    "GCCACAGG+TATGCCAT" : 340,
+    "GCAATGCA+GGAACGCT" : 340,
+    "GATTCTGC+GACGAGCG" : 340,
+    "GATTCTGA+GACGAGAG" : 340,
+    "GATGTCTT+GGTTCACC" : 340,
+    "GATCTATC+ATGCGGCT" : 340,
+    "GATCTATC+ATGAAGCT" : 340,
+    "GACGTCTC+GGTTCACC" : 340,
+    "GACCTGCA+TTGGTGAG" : 340,
+    "GACCTGAA+TTGTTGAG" : 340,
+    "GACCTGAA+TTGTGAGA" : 340,
+    "GAATGAGA+GAGGTATT" : 340,
+    "GAATCGCG+TGACCTTA" : 340,
+    "GAACTGCG+TGACCTTA" : 340,
+    "GAACCGCG+CGACCTTA" : 340,
+    "GAACCGCA+TGACCTTA" : 340,
+    "CTTGTCAA+GAACATAC" : 340,
+    "CTCACCAA+CTAGGTAA" : 340,
+    "CTCACAAA+CTAGGCAA" : 340,
+    "CGTCTGCG+TTCACATT" : 340,
+    "CGGACAAC+TCCGTATT" : 340,
+    "CGGAACTG+CACTACGT" : 340,
+    "CCTTCACT+GACGCTCC" : 340,
+    "CCTTCACC+GACTCTCC" : 340,
+    "CCGTGAAA+CAGTGGAT" : 340,
+    "CCAAGTCC+AAGGATGA" : 340,
+    "CATAATAT+TTCTAACG" : 340,
+    "CAATTAAC+CTAGATAT" : 340,
+    "ATGGCATG+AAGGTATC" : 340,
+    "ATATAAGT+ACTCTATG" : 340,
+    "AGTTCAGG+CCACCAGA" : 340,
+    "AGGTTATA+CAGTTCCA" : 340,
+    "AGGCAGCG+AGAATGCC" : 340,
+    "AGCTCAGG+CCAACAGA" : 340,
+    "AATGCCTC+TCGCTCCA" : 340,
+    "AAGTCTAA+TATGAGTA" : 340,
+    "AAGTCCAA+TATGAGTT" : 340,
+    "AACGTTCT+GGAGTACT" : 340,
+    "AACGTTCC+GGTGTACT" : 340,
+    "AACAGGTA+ATACCAAG" : 340,
+    "TTGGACTC+GGAATCAG" : 320,
+    "TTGGACTA+GGAAGCAG" : 320,
+    "TTGATATC+ACACGAGT" : 320,
+    "TTCTCGTC+TATAACCT" : 320,
+    "TTCCTGTT+TGTATCTT" : 320,
+    "TTCCTATT+AGTATCTT" : 320,
+    "TTACAGGA+TGACACGC" : 320,
+    "TGGCCGGT+TAGAGTGC" : 320,
+    "TGCGGCGT+CCTCTGTA" : 320,
+    "TGCGGCGT+CCTCGTTA" : 320,
+    "TGCGGCGT+CCCCGGTA" : 320,
+    "TGAATATA+TCTCATTC" : 320,
+    "TCGTAGTG+AGACTCGG" : 320,
+    "TCCAACGC+TTGTACTT" : 320,
+    "TCATCCTT+GCGAGCTA" : 320,
+    "TATTGCAC+CTTAGTGT" : 320,
+    "TATCGCAT+CTTAGTGT" : 320,
+    "TATCGCAC+TTTAGTGT" : 320,
+    "TATCGCAC+CTTAGCGT" : 320,
+    "TATAATAC+TTCTAACG" : 320,
+    "TACCGAGG+CTGAACTA" : 320,
+    "TAATACAA+ATATTCAC" : 320,
+    "GTTCTATC+ATGAGGCT" : 320,
+    "GTTCTAAT+AATTCTGC" : 320,
+    "GTGTCGGA+GCTTTCGC" : 320,
+    "GTGTCGGA+GCCTGCGC" : 320,
+    "GTGCTCTA+GCTCCGAC" : 320,
+    "GTGCAAGC+TCACGCCG" : 320,
+    "GTCAGAGC+GGTTATAA" : 320,
+    "GGTACTTT+AAGACGTC" : 320,
+    "GGTACCTT+AGACGTCA" : 320,
+    "GGCATTCT+CTATCTTG" : 320,
+    "GGACTTGG+CGTAGACG" : 320,
+    "GCGCAAGC+TCACGTCG" : 320,
+    "GCCACAGG+CATGCAAT" : 320,
+    "GCAGAATT+ATCGGCCA" : 320,
+    "GCACAAGC+TCACGCCG" : 320,
+    "GATTCTGT+GACGAGAG" : 320,
+    "GATTCTGC+GACGCGAG" : 320,
+    "GATTCTGC+GACGAGTG" : 320,
+    "GAACTATC+ATGAGGCT" : 320,
+    "GAACCGCG+TGACCTTC" : 320,
+    "GAACCACG+TGACCTTA" : 320,
+    "CTTGGTAT+CTAAGTCC" : 320,
+    "CTCACCAA+CTCGGCAA" : 320,
+    "CTACGACA+GAGTTCAA" : 320,
+    "CTACGAAA+GAGTCCAA" : 320,
+    "CGTCTGCG+TTCACACT" : 320,
+    "CGGCGTGA+GCGCCCGT" : 320,
+    "CGGCACTG+CACTACGA" : 320,
+    "CGGAACTG+TACTACGA" : 320,
+    "CCTTCACC+GACGTTCC" : 320,
+    "CCAAGTCT+AATGATGA" : 320,
+    "CCAAGTCT+AAGGACGA" : 320,
+    "CCAAGTCA+AAGGATGA" : 320,
+    "CCAAGCCT+AAGGATGA" : 320,
+    "CATAGAGT+CGCCACCA" : 320,
+    "CATAATAC+TTTTAACG" : 320,
+    "CATAATAC+CTCTAACG" : 320,
+    "CAGAATTA+ACCGGCCA" : 320,
+    "ATGTAAGT+ATTCTATG" : 320,
+    "ATCTCTCG+ATCTTAGT" : 320,
+    "ATATGGAT+CTTTATTA" : 320,
+    "ATATGGAT+CTGTCTTA" : 320,
+    "ATATGGAT+CTGTATTC" : 320,
+    "AGGTTATA+CAGCTCCG" : 320,
+    "AGGTTATA+AGTTCCGA" : 320,
+    "AGGTTATA+AAGTTCCG" : 320,
+    "AGGTAGAG+AGAATGCC" : 320,
+    "ACGCATCT+GGTGAAGG" : 320,
+    "ACCTTGGC+GGCCTCAC" : 320,
+    "AATGCCCC+TCGATCCA" : 320,
+    "AACTGTAG+ACGCCGTA" : 320,
+    "AACAGGAT+ATACCAAG" : 320,
+    "AAATTAAC+CGAGATAT" : 320,
+    "AAAATACT+ACTTACAT" : 320,
+    "TTGTAGTG+AGACTTGG" : 300,
+    "TTGCCTAG+ACCACTTC" : 300,
+    "TTCCTGTT+CGTATCTT" : 300,
+    "TTAGACTC+GGAAGCAG" : 300,
+    "TTACAGGT+TGACAAGC" : 300,
+    "TGGATCGA+GTGCGATC" : 300,
+    "TGGATCAA+GTGCGATA" : 300,
+    "TGCGAGAA+CATTGTTG" : 300,
+    "TCGTGAAG+CAGTGGAT" : 300,
+    "TCGTAGCG+AGACTTGG" : 300,
+    "TCATCCCT+AGCGAGCT" : 300,
+    "TATCGTAC+CTTAGTGT" : 300,
+    "TACTTATA+CCTGTGGC" : 300,
+    "TACCGAGG+CCTGAATT" : 300,
+    "TACCGAGG+CCTGAACC" : 300,
+    "TACCGAGA+CCTGAACT" : 300,
+    "TAATACAG+ATATTCAT" : 300,
+    "TAATACAG+ATATTCAA" : 300,
+    "TAAGTGGT+CTAAGCCA" : 300,
+    "GTTTGTCA+GAACATAC" : 300,
+    "GTATGTTC+ACAGGAAA" : 300,
+    "GGTCATGA+GTATTATG" : 300,
+    "GGTACCTT+AAGACGAC" : 300,
+    "GGTACCTT+AAGACATC" : 300,
+    "GGTAAACC+GCGTTGGA" : 300,
+    "GGACTTGA+CGCAGACG" : 300,
+    "GCTTGTCA+GCACATAC" : 300,
+    "GCTTGTCA+GAATATAC" : 300,
+    "GCTACAGG+CATGCCAT" : 300,
+    "GCGCAAAC+TCACGCCG" : 300,
+    "GCACGGAC+GCCTCGCA" : 300,
+    "GCAATGCA+GGAATGTT" : 300,
+    "GATTCTGC+GACGAGAA" : 300,
+    "GATTCTAC+GACGAGAG" : 300,
+    "GATCTATC+ATGATGCT" : 300,
+    "GATCTAAC+ATGAGGCT" : 300,
+    "GAACCGCG+TGACCCTA" : 300,
+    "CTGCTTCC+TATAGATC" : 300,
+    "CTGCCTCC+GATAGATC" : 300,
+    "CTCACTAA+CTAGGCAA" : 300,
+    "CGGCGTAA+GCGCCTGT" : 300,
+    "CGGACAAC+TCCGGATA" : 300,
+    "CGGAATTG+CACTACGA" : 300,
+    "CGCTATGC+TCCGACAC" : 300,
+    "CCTTTACC+GACGCTCC" : 300,
+    "CCTTCACC+GACGCTCA" : 300,
+    "CCATTCGC+GTTGTCCG" : 300,
+    "CATAGAGT+GCCACCAA" : 300,
+    "CAATTAAC+CGAGATCT" : 300,
+    "CAAGCTAG+ATAGCGAC" : 300,
+    "ATTACTCC+AACCTGTT" : 300,
+    "ATGTAAGA+ACTCTATG" : 300,
+    "ATGGTATG+AAGGTACC" : 300,
+    "ATCTGGAT+CTGTATTA" : 300,
+    "ATATGTAT+CTGTATTA" : 300,
+    "ATATCTCG+TTCTTAGT" : 300,
+    "ATATCTCG+ATCTTAAT" : 300,
+    "AGTCCAAA+TATGAGTA" : 300,
+    "AGTACTCC+AACCTTTT" : 300,
+    "AGTACTCC+AACCTGCT" : 300,
+    "AGGTTATA+CAGTCCCG" : 300,
+    "AGGATATA+CAGTTCCG" : 300,
+    "AGCTCACT+GCAGAATC" : 300,
+    "ACGCACTT+GGTGAAGG" : 300,
+    "ACGCACCA+GGTGAAGG" : 300,
+    "ACCTTGGC+GGCTTCAT" : 300,
+    "ACAGGCGC+CTTTGCCT" : 300,
+    "ACAGGCAC+CTCTGCCT" : 300,
+    "ACACTAAG+ATCTATAT" : 300,
+    "AATGCCTT+TCGATCCA" : 300,
+    "AATGAGAA+GAGGCATT" : 300,
+    "AAGCCCAA+TATGAGTA" : 300,
+    "AACGTTCA+GGAGTACT" : 300,
+    "TTTGGTAT+CCAAGTCC" : 280,
+    "TTGTCTAG+ACCACTTA" : 280,
+    "TTGGACTC+GGCAGCAG" : 280,
+    "TTGCCTAG+ACCACTCA" : 280,
+    "TTCCTGTC+AGTATCTT" : 280,
+    "TTACAGGC+TGACAAGC" : 280,
+    "TTACAGGA+TGATAAGC" : 280,
+    "TGTGAGAC+CATTGTTG" : 280,
+    "TGTCTGCG+TTCACAAT" : 280,
+    "TGGCTGGT+TAGAGCGC" : 280,
+    "TGGATCGA+GTTCGATA" : 280,
+    "TGCGGCGC+CCTCGGTA" : 280,
+    "TGCGATAC+CATTGTTG" : 280,
+    "TGCGAGAC+CCTTGTTG" : 280,
+    "TCGTAGTG+AGTCTTGG" : 280,
+    "TCGTAGTG+AGATTTGG" : 280,
+    "TCGTAGTG+AAACTTGG" : 280,
+    "TCGCAGTG+AGACTTGG" : 280,
+    "TCGATATC+ACACTAGT" : 280,
+    "TCGATATA+ACACGAGT" : 280,
+    "TCCAACGC+TGGACTTA" : 280,
+    "TCCAACAC+TTGGACTT" : 280,
+    "TCATCCTT+TGCGAGCT" : 280,
+    "TACTCCTA+CCTGTGGC" : 280,
+    "TACAACGC+TTGGACTT" : 280,
+    "GTGCCGGA+GCTTGCGC" : 280,
+    "GTGAATAT+TTTCATTC" : 280,
+    "GTCTACAC+GCCACGGT" : 280,
+    "GTCTACAC+GCCAAGTT" : 280,
+    "GTCACAGG+CATGCCAT" : 280,
+    "GGTGAACC+GCTTTGGA" : 280,
+    "GGTCACGA+GTATTATA" : 280,
+    "GGTCACAA+GTATTATG" : 280,
+    "GGTACCTA+AAGACGTC" : 280,
+    "GGCTTAAG+CCGTGACC" : 280,
+    "GGAGTGTC+GTCCGTGC" : 280,
+    "GGAGCGTC+TTCCGTGC" : 280,
+    "GCTTATCA+GAACATAC" : 280,
+    "GCGTTCTA+GCTCCGAC" : 280,
+    "GCGTAAGC+TCACGCCG" : 280,
+    "GCGCTCTA+GCTCCGTC" : 280,
+    "GCGCAAGT+TCACGCCG" : 280,
+    "GCGAATAT+TCTCATTC" : 280,
+    "GCCTACAC+GCCAAGGT" : 280,
+    "GCAGAATT+ACCGGTCA" : 280,
+    "GCAATACA+GGAACGTT" : 280,
+    "GATTCTGC+GACGAGAT" : 280,
+    "GATCTATC+ATGTGGCT" : 280,
+    "GATCTATA+ATGAGGCT" : 280,
+    "GATACCTT+AAGACGTC" : 280,
+    "GACGTCTT+GATTCACC" : 280,
+    "GACCTGAA+TTTGTGAG" : 280,
+    "GAATGAGA+GCGGCATT" : 280,
+    "GAACCGCG+TTACCTTA" : 280,
+    "CTTTCGTC+TATAACCT" : 280,
+    "CTTGTGAA+TGCATTGC" : 280,
+    "CTTGGTAC+CCAAGTCC" : 280,
+    "CTGCTTCC+GATTGATC" : 280,
+    "CTGCTTCC+GATATATC" : 280,
+    "CTGCTCCA+GATAGATC" : 280,
+    "CTCTTGTC+TATAACCT" : 280,
+    "CTCTCGTC+CATAACCT" : 280,
+    "CTCTCGTA+TATAACCT" : 280,
+    "CTCATCAA+CTAGGCAA" : 280,
+    "CTCACCAA+CCAGGCAA" : 280,
+    "CTATGACA+GAGTCCAA" : 280,
+    "CTACGACA+GAGTCCAC" : 280,
+    "CGTTAGCA+TTCAGGTC" : 280,
+    "CGTTAGAA+TTCAGTTC" : 280,
+    "CGTTAGAA+TTCAGGTA" : 280,
+    "CGGTACTG+CACTACGA" : 280,
+    "CGGACAAC+TTCGGATT" : 280,
+    "CGGAACTG+CACTCCGA" : 280,
+    "CGGAACTA+CACTACGA" : 280,
+    "CGCGGCGT+CCTCGGTA" : 280,
+    "CCTTCACC+GCCGCTCC" : 280,
+    "CCGTGAAG+CAGTGTAT" : 280,
+    "CCGTGAAG+AGTGGATA" : 280,
+    "CCAAGTCT+AAGGTTGA" : 280,
+    "CCAACGCA+TTGGACTT" : 280,
+    "CATCTGCG+TTCACAAT" : 280,
+    "CATAGAAT+TGCCACCA" : 280,
+    "CAATTAAC+CGCGATAT" : 280,
+    "CAATAATG+CTTCACGG" : 280,
+    "CAAGCTAA+ACATAGCG" : 280,
+    "CAACAATG+TTCACGGA" : 280,
+    "CAACAATG+CTTTACGG" : 280,
+    "CAACAATG+CTTCACTG" : 280,
+    "ATTGTGCA+TGCATTGC" : 280,
+    "ATTGTGAA+TGCATTGA" : 280,
+    "ATTGCGAA+TGCATTGC" : 280,
+    "ATGTAAGT+ACTCTTTG" : 280,
+    "ATCCACTG+AGGTTCGT" : 280,
+    "ATATGGAT+CTGTATCA" : 280,
+    "ATATGGAT+CTGTATAA" : 280,
+    "AGTACTCC+ATCCTGTT" : 280,
+    "AGGCAGAG+AGTATGCC" : 280,
+    "AGGCAAAG+AGAATGCC" : 280,
+    "AGCTTCAT+AGTAGAGA" : 280,
+    "ACAGGTTA+ATACCAAG" : 280,
+    "ACAGGCGC+CTCTACCT" : 280,
+    "ACAGGCGC+CCCTGCCT" : 280,
+    "AATGCCTC+TTGATCCA" : 280,
+    "AATGACTC+TCGATCCA" : 280,
+    "AAGATATT+ACTTACAT" : 280,
+    "AAGATACT+TCTTACAT" : 280,
+    "AAGATACT+ACTCACAT" : 280,
+    "AAGATACC+ACTTACAT" : 280,
+    "AACTGTAG+ACGCTGCA" : 280,
+    "AACGTTCC+GTAGTACT" : 280,
+    "AACGTTCC+GGAGTCCT" : 280,
+    "AACGTTCC+GGAGTACC" : 280,
+    "AACGCTCC+GGAGTACT" : 280,
+    "TTGTGAAA+TGCATTGC" : 260,
+    "TTGTACTC+GGAAGCAG" : 260,
+    "TTCCTGTT+AGTCTCTT" : 260,
+    "TTCCTGTT+AGTATCCT" : 260,
+    "TTCCTGAT+AGTATCTT" : 260,
+    "TTCATGTT+AGTATCTT" : 260,
+    "TGGCCGGT+TATAGCGC" : 260,
+    "TGGCCGGC+TAGAGCGC" : 260,
+    "TGGACAAC+TCCGGATT" : 260,
+    "TGCGAGAT+CATTGTTG" : 260,
+    "TCTCTACC+CGCGGTTC" : 260,
+    "TCGTAGTG+CGACTTGG" : 260,
+    "TCGTAGTG+AGACTTGT" : 260,
+    "TCCTCCTT+CTCTCTCT" : 260,
+    "TCCAACGC+TCGGACTT" : 260,
+    "TCATCCTT+AGCGAGCG" : 260,
+    "TCATCCTT+AGCGAGAT" : 260,
+    "TCACCTTA+AGCGAGCT" : 260,
+    "TATCGCAC+CTAGTGTA" : 260,
+    "TATCGCAC+CCTAGTGT" : 260,
+    "TACTCATA+CCTTTGGC" : 260,
+    "TACTCATA+CCTGTGGA" : 260,
+    "TACGAGAC+CATTGTTG" : 260,
+    "TACCGAGG+CCTGCACT" : 260,
+    "GTTCAAAT+AATTCTGC" : 260,
+    "GTGAATAT+TCTTATTC" : 260,
+    "GTGAATAT+CCTCATTC" : 260,
+    "GTGAATAC+TCTCATTC" : 260,
+    "GTCTGCGA+TTCACAAT" : 260,
+    "GTCGGAGC+GGCTATAA" : 260,
+    "GTATGTTC+CACAGGAA" : 260,
+    "GTATGTTC+AACAGGCA" : 260,
+    "GGTGAACC+GCGTTGTA" : 260,
+    "GGTGAACC+ACGTTGGA" : 260,
+    "GGCTTAAG+TTGTGACC" : 260,
+    "GGCATTCT+TTAGCTTG" : 260,
+    "GGAGCGTC+GCCCGTGC" : 260,
+    "GGACTTGG+CGCAGATG" : 260,
+    "GCTTGTCA+GATCATAC" : 260,
+    "GCTTAAGA+TCGTGACC" : 260,
+    "GCGAGACA+CATTGTTG" : 260,
+    "GCGAAAGC+TCACGCCG" : 260,
+    "GCCACAGG+CATGCCCT" : 260,
+    "GCACTCTA+GCTCCGAC" : 260,
+    "GCACGGAC+GTCTTGCA" : 260,
+    "GCACGGAA+GTCTCGCA" : 260,
+    "GCAATGCA+GGAACATT" : 260,
+    "GCAATGCA+GAACGTTA" : 260,
+    "GATTTTGC+GACGAGAG" : 260,
+    "GAGCAAGC+TCACGCCG" : 260,
+    "GACGTCTT+TGTTCACC" : 260,
+    "GACCTGAA+TTGATGAG" : 260,
+    "GAACCGCG+TGCCCTTA" : 260,
+    "GAACCGCG+TGACCTCA" : 260,
+    "CTGTGAAG+CAGTGGAT" : 260,
+    "CTCTCGTC+TATAACAT" : 260,
+    "CTCACCAA+CTAGGAAA" : 260,
+    "CTATGGAT+CTGTATTA" : 260,
+    "CTATAACC+GATATCGA" : 260,
+    "CTAAGTCT+AAGGATGA" : 260,
+    "CGTCTTCG+TTCACAAT" : 260,
+    "CGTCTGCG+TTCACTAT" : 260,
+    "CGTCTGAG+TTCACAAT" : 260,
+    "CGTAGTGA+AGACTTGG" : 260,
+    "CGGACAAC+TCCGATTA" : 260,
+    "CGGAACTG+CACTACAA" : 260,
+    "CGCTATGT+TCCAACAC" : 260,
+    "CGCTATGA+TCCGACAC" : 260,
+    "CGCAAGCA+TCACGCCG" : 260,
+    "CCTTCACC+GTCGCTCC" : 260,
+    "CCGTGAAG+CAGTGGAC" : 260,
+    "CCATTTGA+GTTGTCCG" : 260,
+    "CCATTCGA+GTTATCCG" : 260,
+    "CATAAAGT+TGCCACCA" : 260,
+    "CAGAACTG+CACTACGA" : 260,
+    "CAATTAAC+CGAGATAC" : 260,
+    "CAATCAAC+CGAGATAT" : 260,
+    "ATTGTGAA+TGCATTAC" : 260,
+    "ATGGCATG+AAGTTACC" : 260,
+    "ATGAGGCT+GTTAATTG" : 260,
+    "ATCTACTG+AGGTGCGT" : 260,
+    "ATATGTTC+AACAGGAA" : 260,
+    "AGTACTCC+CACCTGTT" : 260,
+    "AGTACTCC+AACATGTT" : 260,
+    "AGTAATCC+AACCTGTT" : 260,
+    "AGGTTATA+CATTTCCG" : 260,
+    "AGGTATAA+CAGTTCCG" : 260,
+    "AGGCAGAG+CGAATGCC" : 260,
+    "AGGCAGAG+AGAACGCC" : 260,
+    "AGCCTCAT+TGTAGAGA" : 260,
+    "AGCCCGCT+GCAGAATC" : 260,
+    "AGACAGAG+AGAATGCC" : 260,
+    "ACTCGTGT+ACTGGAAC" : 260,
+    "ACGCACCT+GGCGAAGG" : 260,
+    "ACGCACCT+GATGAAGG" : 260,
+    "ACCTTTGC+GGCCTCAT" : 260,
+    "ACCTTGGC+GGCCTCTT" : 260,
+    "ACAGGTGC+CTCTGCCT" : 260,
+    "ACAGGCGC+CTCCGCCT" : 260,
+    "ACACACCT+GGTGAAGG" : 260,
+    "AATTCTGC+GACGAGAG" : 260,
+    "AAGTTCAA+TATGAGTA" : 260,
+    "AAGTCCAA+TATGATTA" : 260,
+    "AAGGTCAA+TGTCGTAG" : 260,
+    "AAGATACT+ATTTACAT" : 260,
+    "AAGATACA+ACTTACAT" : 260,
+    "AACTGTAG+CCGCCGCA" : 260,
+    "AACTGTAG+ATGCCGCA" : 260,
+    "AACAGGTC+ATACCAAG" : 260,
+    "AACAATGA+CTTCACGG" : 260,
+    "TTGGACTC+GGTAGCAG" : 240,
+    "TTGCCTAG+ATCACTTA" : 240,
+    "TTCTGTTA+AGTATCTT" : 240,
+    "TTATAACC+GTTATCGA" : 240,
+    "TTACTGTT+AGTATCTT" : 240,
+    "TTACGACA+GAGTCCAA" : 240,
+    "TGGTGGTA+TCCTGTAA" : 240,
+    "TGGTGGCA+TCTGTAAA" : 240,
+    "TGGTGGAA+TCCTGTAA" : 240,
+    "TGGCATGA+AAGGTACC" : 240,
+    "TGCTTCCA+GATAGATC" : 240,
+    "TGCGGCGT+CCTCGGCA" : 240,
+    "TCTGTTGA+TCGAATGG" : 240,
+    "TCTCTTCT+CGCGGTTC" : 240,
+    "TCGTAGTG+GACTTGGA" : 240,
+    "TCGTAATG+AGACTTGG" : 240,
+    "TCGGAGCA+GGTTATAA" : 240,
+    "TCGATCTC+ACACGAGT" : 240,
+    "TCGATATC+ATACGAGT" : 240,
+    "TCGATATC+ACATGAGT" : 240,
+    "TCGATATC+ACACGAAT" : 240,
+    "TCCTGTTA+AGTATCTT" : 240,
+    "TCCAATGC+TTGGACTT" : 240,
+    "TCCAACGT+TTGGACTT" : 240,
+    "TCCAACGC+CTGGACTT" : 240,
+    "TCATCCTT+AGCTAGCT" : 240,
+    "TCATCATT+AGCGAGCT" : 240,
+    "TCAACGCA+TTGGACTT" : 240,
+    "TATCGCAC+TTAGTGTA" : 240,
+    "TAATACAG+ATATTCCC" : 240,
+    "TAAGGTCA+TGTGTAGA" : 240,
+    "TAAGGTCA+TGTCGTTG" : 240,
+    "TAAGGACA+TGTCGTAG" : 240,
+    "TAAGCTAG+ACATAGCG" : 240,
+    "TAAGCGGT+CTTAAGCC" : 240,
+    "GTTCCAAT+ACTTCTGC" : 240,
+    "GTTAGAAA+TTCAGGTC" : 240,
+    "GTGTCGAA+GCTTGCGC" : 240,
+    "GTCTACAC+TCCAAGGT" : 240,
+    "GTATGTTC+ACCAGGAA" : 240,
+    "GTATGTTC+AACAGCAA" : 240,
+    "GTAATGCA+GGAACGTT" : 240,
+    "GGTGCGTC+GTCCGTGC" : 240,
+    "GGTGAACC+TCGTTGGA" : 240,
+    "GGTCACGA+GTTTTATG" : 240,
+    "GGTCACGA+GTATTTTG" : 240,
+    "GGTACCTT+AATACGTC" : 240,
+    "GGTACATT+AAGACGTC" : 240,
+    "GGCACCTT+AAGACGTC" : 240,
+    "GGAGCGTA+GTCCGTGC" : 240,
+    "GGACTTGG+CGCAGACA" : 240,
+    "GCTTCTGC+GACGAGAG" : 240,
+    "GCTATGTA+TCCGACAC" : 240,
+    "GCCTCATA+AGTAGAGA" : 240,
+    "GCCACAGG+CCTGCCAT" : 240,
+    "GCCACAGG+CATGCCTT" : 240,
+    "GCAGAATT+ACCGTCCA" : 240,
+    "GCACGAAC+GTCTCGCA" : 240,
+    "GCACAGAC+GTCTCGCA" : 240,
+    "GCAATGAA+GGAACGTT" : 240,
+    "GACCTGAA+TTGGTGAT" : 240,
+    "GACCTGAA+TTGGTGAA" : 240,
+    "GAATGAGC+GAGGCATT" : 240,
+    "GAATGAGA+TAGGCATT" : 240,
+    "GAACTTGG+CGCAGACG" : 240,
+    "CTGATTCC+GATAGATC" : 240,
+    "CTCTCGTC+TTTAACCT" : 240,
+    "CTCACCAA+CTAGGCCA" : 240,
+    "CTATTCGA+GTTGTCCG" : 240,
+    "CTACGACA+GTGTCCAA" : 240,
+    "CTACGACA+GATTCCAA" : 240,
+    "CTACGACA+GAGTCCTA" : 240,
+    "CTACGACA+GAGCCCAA" : 240,
+    "CTACAACA+GAGTCCAA" : 240,
+    "CGTTATGT+TCCGACAC" : 240,
+    "CGTTAGAA+CTCAGGTC" : 240,
+    "CGTCTGCG+TTCATAAT" : 240,
+    "CGTCTGCG+TTCACCAT" : 240,
+    "CGTCTGCG+TCCACAAT" : 240,
+    "CGGCGTGA+GCGCCTTT" : 240,
+    "CGGAACTG+TACGAACG" : 240,
+    "CGGAACTG+AACTACGA" : 240,
+    "CGCTATGT+TCCGCCAC" : 240,
+    "CCTTCACC+GACGCGCC" : 240,
+    "CCTTCACC+GACACTCC" : 240,
+    "CCATTCGA+GTTGTCCT" : 240,
+    "CCATGTCT+AAGGATGA" : 240,
+    "CCATGAAG+CAGTGGAT" : 240,
+    "CCACAGGA+CATGCCAT" : 240,
+    "CCAAGACT+AAGGATGA" : 240,
+    "CATAGAGT+TGCACCAA" : 240,
+    "CAATTTAC+CGAGATAT" : 240,
+    "CAATTAAC+GAGATATA" : 240,
+    "CAAGCTAG+ATATAGCG" : 240,
+    "CAACAATG+CTCACGGA" : 240,
+    "ATTGTGAA+TTCATTGC" : 240,
+    "ATTAAGAT+AACCGCGG" : 240,
+    "ATGTAAAT+ACTCTATG" : 240,
+    "ATGGCATG+AAGGTACA" : 240,
+    "ATGAGGAC+GTTAATTG" : 240,
+    "ATGACATG+AAGGTACC" : 240,
+    "ATCGTGAA+TGCATTGC" : 240,
+    "ATCCTCAT+AGTAGAGA" : 240,
+    "ATCCACTG+ATGTGCGT" : 240,
+    "ATATGGAT+CCGTATTA" : 240,
+    "ATATCTCG+ACCTTAGT" : 240,
+    "ATATCTAG+ATCTTAGT" : 240,
+    "ATATAGAT+CTGTATTA" : 240,
+    "ATAGGCGC+CTCTGCCT" : 240,
+    "AGTTCAAG+CCAACAGA" : 240,
+    "AGTCTCCA+AACCTGTT" : 240,
+    "AGTACCTT+AAGACGTC" : 240,
+    "AGGTTATA+CTGTTCCG" : 240,
+    "AGGCAGAG+AGAATACC" : 240,
+    "ACTCGTGT+ATTGTAAC" : 240,
+    "ACGCACCT+GGTGAATG" : 240,
+    "ACGCACCC+GGTGAAGG" : 240,
+    "ACCTTGGC+GGCCTCCT" : 240,
+    "ACCACAGG+CATGCCAT" : 240,
+    "ACACTAAG+ATCCATCT" : 240,
+    "AATTAACA+CGAGATAT" : 240
+   }
+  }
+ ]
+}
