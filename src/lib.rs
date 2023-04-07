@@ -26,6 +26,7 @@ pub fn run() -> Result<(), String> {
     println!("{}", HEADER);
     let mut barcode_list: HashMap<String, String> = HashMap::new();
     let bcl2fastq_stats: Bcl2FqStats = from_str(&data).unwrap();
+    // TODO: only reading from lane 1 for now: ConversionResults[0]
     for sample in &bcl2fastq_stats.ConversionResults[0].DemuxResults {
         let barcode = &sample.IndexMetrics[0].IndexSequence;
         barcode_list.insert(sample.SampleId.clone(), barcode.to_string());
