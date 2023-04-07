@@ -1,10 +1,12 @@
 pub mod cli;
 pub mod distance;
 pub mod models;
+pub mod utils;
 
 use crate::cli::{Command, Parser};
 use crate::distance::hamming_distance;
 use crate::models::{Bcl2FqStats, ConversionResult};
+use crate::utils::sort_hashmap;
 use log::info;
 use models::UnknownBarcode;
 use serde_json::from_str;
@@ -29,6 +31,7 @@ const MAX_COUNT_UNDETERMINED: usize = 10;
 /// # Example
 /// ```
 /// use bcl2fq_stats::models::{ConversionResult, DemuxResult};
+/// use std::collections::HashMap;
 /// ```
 fn collect_lane_barcode_count(
     conversion_result: &ConversionResult,
@@ -58,9 +61,8 @@ fn collect_lane_barcode_count(
     Ok(())
 }
 
-
 /// Parsing the Undetermined barcode section
-/// 
+///
 /// # Arguments
 /// - unknown_barcode_lane: the unknown barcode object for each lane
 /// - undetermined_barcode_counter: a hashmap collecting the count for each undetermined barcodes
@@ -90,8 +92,7 @@ fn print_undetermined_barcode(
     barcode_list: &HashMap<String, String>,
     max_distance: &u8,
 ) -> Result<(), String> {
-    let mut sorted_undetermined_barcode_count = Vec::from_iter(undetermined_barcode_counter);
-    sorted_undetermined_barcode_count.sort_by(|(_, a), (_, b)| b.cmp(&a));
+    let sorted_undetermined_barcode_count = sort_hashmap(undetermined_barcode_counter)?;
 
     for it in sorted_undetermined_barcode_count.iter().enumerate() {
         let (i, (undetermined_barcode, barcode_count)) = it;
@@ -129,9 +130,7 @@ fn print_barcode_count(
     barcode_list: &HashMap<String, String>,
 ) -> Result<(), String> {
     // print out the barcode counts
-    let mut sorted_barcode_count = Vec::from_iter(barcode_counter);
-    // sort the barcode by counts
-    sorted_barcode_count.sort_by(|&(_, a), &(_, b)| b.cmp(&a));
+    let sorted_barcode_count = sort_hashmap(barcode_counter)?;
     for (sample_id, barcode_count) in sorted_barcode_count.iter() {
         let barcode: &String = barcode_list
             .get(&(*sample_id).clone())
