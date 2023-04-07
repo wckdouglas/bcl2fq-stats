@@ -25,6 +25,11 @@ const MAX_COUNT_UNDETERMINED: usize = 10;
 ///
 /// # Returns
 /// - None
+///
+/// # Example
+/// ```
+/// use bcl2fq_stats::models::{ConversionResult, DemuxResult};
+/// ```
 fn collect_lane_barcode_count(
     conversion_result: &ConversionResult,
     barcode_counter: &mut HashMap<String, u64>,
@@ -53,6 +58,12 @@ fn collect_lane_barcode_count(
     Ok(())
 }
 
+
+/// Parsing the Undetermined barcode section
+/// 
+/// # Arguments
+/// - unknown_barcode_lane: the unknown barcode object for each lane
+/// - undetermined_barcode_counter: a hashmap collecting the count for each undetermined barcodes
 fn collect_lane_undetermined_barcode(
     unknown_barcode_lane: &UnknownBarcode,
     undetermined_barcode_counter: &mut HashMap<String, u64>,
@@ -155,10 +166,13 @@ pub fn run() -> Result<(), String> {
         })
         .collect::<Vec<Result<(), String>>>();
 
+    // and print out the demuxed counts
     print_barcode_count(&barcode_counter, &barcode_list)?;
 
+    // now look at undetermined barcode section
     let mut undetermined_barcode_counter: HashMap<String, u64> = HashMap::new();
 
+    // first collecting the counts
     let _ = bcl2fastq_stats
         .UnknownBarcodes
         .iter()
@@ -169,6 +183,8 @@ pub fn run() -> Result<(), String> {
             )
         })
         .collect::<Vec<_>>();
+
+    // and match with the known barcodes, and print them out
     print_undetermined_barcode(
         &mut undetermined_barcode_counter,
         &barcode_list,
