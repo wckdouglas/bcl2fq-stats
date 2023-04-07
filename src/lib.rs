@@ -4,7 +4,7 @@ pub mod models;
 
 use crate::cli::{Command, Parser};
 use crate::distance::hamming_distance;
-use crate::models::Bcl2FqStats;
+use crate::models::{Bcl2FqStats, ConversionResult, DemuxResult};
 use log::info;
 use serde_json::from_str;
 
@@ -14,6 +14,30 @@ use std::io::Read;
 
 const HEADER: &str = "sq_id\tbarcode\tread_count\tpossible_sq_index";
 const MAX_COUNT_UNDETERMINED: usize = 10;
+
+fn collect_lane_barcode_count(
+    conversion_result: &ConversionResult,
+    barcode_counter: &mut HashMap<String, u64>,
+    barcode_list: &mut HashMap<String, String>,
+) -> Result<(), String> {
+    for demux_sample in &conversion_result.DemuxResults {
+        let sample_id: &String = &demux_sample.SampleId;
+        let barcode: &String = &demux_sample.IndexMetrics[0].IndexSequence;
+        let read_count: u64 = demux_sample.NumberReads;
+
+        match barcode_counter.get(sample_id) {
+            Some(count) => {
+                barcode_counter.insert(sample_id.clone(), count + read_count);
+            }
+            None => {
+                barcode_counter.insert(sample_id.clone(), read_count);
+            }
+        };
+
+        barcode_list.insert(sample_id.clone(), barcode.to_string());
+    }
+    Ok(())
+}
 
 pub fn run() -> Result<(), String> {
     // Read in cli arguments
@@ -28,15 +52,20 @@ pub fn run() -> Result<(), String> {
 
     println!("{}", HEADER);
     let mut barcode_list: HashMap<String, String> = HashMap::new();
+    let mut barcode_counter: HashMap<String, u64> = HashMap::new();
     let bcl2fastq_stats: Bcl2FqStats = from_str(&data).unwrap();
-    // TODO: only reading from lane 1 for now: ConversionResults[0]
-    for sample in &bcl2fastq_stats.ConversionResults[0].DemuxResults {
-        let barcode = &sample.IndexMetrics[0].IndexSequence;
-        barcode_list.insert(sample.SampleId.clone(), barcode.to_string());
-        println!(
-            "{}\t{}\t{}\t{}",
-            sample.SampleId, barcode, sample.NumberReads, ""
-        );
+
+    // parse demux result from all lanes
+    for conversion_result in &bcl2fastq_stats.ConversionResults {
+        // this is running for each lane
+        collect_lane_barcode_count(conversion_result, &mut barcode_counter, &mut barcode_list)?;
+    }
+
+    for (sample_id, barcode_count) in barcode_counter.iter() {
+        let barcode: &String = barcode_list
+            .get(sample_id)
+            .ok_or("No barcode collected".to_string())?;
+        println!("{}\t{}\t{}\t{}", sample_id, barcode, barcode_count, "");
     }
 
     for it in bcl2fastq_stats.UnknownBarcodes[0]
