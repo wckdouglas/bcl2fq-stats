@@ -1,3 +1,11 @@
+/// Hamming distance function to group undetermined barcodes into known ones
+///
+/// # Arguments
+/// - barcode_a: the first barcode to be compared
+/// - barcode_b: the second barcode to be compared (same length as barcode_a)
+///
+/// # Returns
+/// - hamming distance
 pub fn hamming_distance(barcode_a: &[u8], barcode_b: &[u8]) -> Result<u8, String> {
     let mut score = 0;
     if barcode_a.len() == barcode_b.len() {

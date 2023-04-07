@@ -16,9 +16,12 @@ const HEADER: &str = "sq_id\tbarcode\tread_count\tpossible_sq_index";
 const MAX_COUNT_UNDETERMINED: usize = 10;
 
 pub fn run() -> Result<(), String> {
+    // Read in cli arguments
     let args = Command::parse();
 
     info!("Reading {}", &args.json_file);
+    // Read json file content as string
+    // TODO: can we stream it?
     let mut file = File::open(args.json_file).unwrap();
     let mut data = String::new();
     file.read_to_string(&mut data).unwrap();
