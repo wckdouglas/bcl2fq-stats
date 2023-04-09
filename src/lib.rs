@@ -21,9 +21,9 @@ const MAX_COUNT_UNDETERMINED: usize = 10;
 /// Parsing ConversionResult (per lane) from the bcl2fastq json file
 ///
 /// # Arguments
-/// - conversion_result: ConversionResult object
-/// - barcode_counter: a hash map collecting the count for each sample
-/// - barcode_list: a hash map collecting the conversion between sample id and barcode
+/// - `conversion_result`: ConversionResult object
+/// - `barcode_counter`: a hash map collecting the count for each sample
+/// - `barcode_list`: a hash map collecting the conversion between sample id and barcode
 ///
 /// # Returns
 /// - None
@@ -87,6 +87,14 @@ fn collect_lane_undetermined_barcode(
     }
 }
 
+/// Printing out the top count undetermined barcode, with their
+/// possible mismatched originated-barcode ID
+///
+/// # Arguments
+/// - `undetermined_barcode_counter`: a hashmap storing the undetermined barcode sequence and their
+/// counts
+/// - `barcode_list`: a barcode ID to barcode sequence hash map
+/// - `max_distance`: how many mismatch to tolerate before calling a barcode match
 fn print_undetermined_barcode(
     undetermined_barcode_counter: &mut HashMap<String, u64>,
     barcode_list: &HashMap<String, String>,
@@ -123,8 +131,8 @@ fn print_undetermined_barcode(
 /// printing out the barcode count
 ///
 /// # Arguments
-/// - barcode_counter: hash map of sample id/count
-/// - barcode_list: hash map of sample id/barcode
+/// - `barcode_counter`: hash map of sample id/count
+/// - `barcode_list`: hash map of sample id/barcode
 fn print_barcode_count(
     barcode_counter: &HashMap<String, u64>,
     barcode_list: &HashMap<String, String>,
