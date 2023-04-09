@@ -112,7 +112,7 @@ fn print_undetermined_barcode(
                     hamming_distance(barcode.as_bytes(), undetermined_barcode.as_bytes()).unwrap(),
                 )
             })
-            .filter(|(_barcode_id, score)| score < &max_distance)
+            .filter(|(_barcode_id, score)| score < max_distance)
             .map(|(barcode_id, _score)| barcode_id.clone())
             .collect();
         let possible_barcodes: String = list_of_possible_barcodes.join(",");
