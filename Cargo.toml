@@ -1,15 +1,15 @@
-[package]
-name = "bcl2fq-stats"
-version = "0.1.0"
-edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
-clap = { version = "4.2.1", features = ["derive"] }
+clap = {version = "4.2.1", features = ["derive"]}
 env_logger = "0.10.0"
 log = "0.4.17"
 rstest = "0.17.0"
 serde = "1.0.159"
 serde_derive = "1.0.159"
 serde_json = "1.0.95"
+
+[package]
+description = "bcl2fq-stats is designed to give a quick overview of read count distribution over the given indices, and identify potential index mismatches from the undetermined read counts. "
+edition = "2021"
+license = "Apache-2.0"
+name = "bcl2fq-stats"
+version = "0.1.0"
