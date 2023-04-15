@@ -1,5 +1,7 @@
 # bcl2fq-stats #
 
+[![CI](https://github.com/wckdouglas/bcl2fq-stats/actions/workflows/ci.yml/badge.svg)](https://github.com/wckdouglas/bcl2fq-stats/actions/workflows/ci.yml)[![crates.io](https://img.shields.io/crates/v/bcl2fq-stats.svg)](https://crates.io/crates/bcl2fq-stats)
+
 Illumina sequencing data is always demultiplexed with [Bcl2fastq](https://support.illumina.com/sequencing/sequencing_software/bcl2fastq-conversion-software.html),
 but it's not always easy to get a table of read counts from the demultiplexed data. 
 `bcl2fq-stats` is designed to give a quick overview of read count distribution over the given indices, and
