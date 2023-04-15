@@ -15,7 +15,7 @@ use std::collections::HashMap;
 use std::fs::File;
 use std::io::Read;
 
-const HEADER: &str = "sq_id\tbarcode\tread_count\tpossible_sq_index";
+const HEADER: &str = "sq_id\tbarcode\tread_count\tpossible_origin_index";
 const MAX_COUNT_UNDETERMINED: usize = 10;
 
 /// Parsing ConversionResult (per lane) from the bcl2fastq json file
