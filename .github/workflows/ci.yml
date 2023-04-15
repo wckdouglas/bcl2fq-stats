@@ -31,7 +31,8 @@ jobs:
           cargo fmt
       - name: CI -- functional
         run: |
-          cargo run -- -j data/Stats.json
+          cargo run -- -j data/Stats.json > test.out.tsv
+          diff test.out.tsv data/expected.tsv
   build-and-push-image:
     needs: build-and-test-rust
     runs-on: ubuntu-latest
