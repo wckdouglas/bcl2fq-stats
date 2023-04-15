@@ -155,10 +155,12 @@ pub fn run() -> Result<(), String> {
     info!("Reading {}", &args.json_file);
     // Read json file content as string
     // TODO: can we stream it?
-    let mut file = File::open(args.json_file).map_err(|e| e.to_string())?;
+    let mut file =
+        File::open(args.json_file).map_err(|_| "The given json file is not found".to_string())?;
     let mut data = String::new();
     file.read_to_string(&mut data).map_err(|e| e.to_string())?;
-    let bcl2fastq_stats: Bcl2FqStats = from_str(&data).map_err(|e| e.to_string())?;
+    let bcl2fastq_stats: Bcl2FqStats =
+        from_str(&data).map_err(|_| "Is this a bcl2fastq Stats.json file?".to_string())?;
 
     println!("{}", HEADER);
     let mut barcode_list: HashMap<String, String> = HashMap::new();
