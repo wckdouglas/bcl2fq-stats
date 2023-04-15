@@ -33,7 +33,7 @@ jobs:
         cargo fmt
     - name: CI -- functional
       run: |
-        cargo run -- -j data/Stats.json > test.out.tsv
+        cargo run -- -j data/Stats.json > data/test.out.tsv
         expected_ln=$(wc -l < data/expected.tsv)
         ln=$(wc -l < data/test.out.tsv ); if [ $ln -ne $expected_ln ] ; then exit 1; fi
 
