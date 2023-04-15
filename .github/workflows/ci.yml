@@ -11,6 +11,7 @@ on:
     branches:
     - main
 
+
 jobs:
   build-and-test-rust:
     name: Rust CI
