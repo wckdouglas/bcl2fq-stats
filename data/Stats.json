@@ -37,8 +37,8 @@
    "Yield" : 6187890020,
    "DemuxResults" : [
     {
-     "SampleId" : "SQ1",
-     "SampleName" : "SQ1",
+     "SampleId" : "BARCODE1",
+     "SampleName" : "BARCODE1",
      "IndexMetrics" : [
       {
        "IndexSequence" : "CCGCGGTT+AGCGCTAG",
@@ -68,8 +68,8 @@
      ]
     },
     {
-     "SampleId" : "SQ10",
-     "SampleName" : "SQ10",
+     "SampleId" : "BARCODE10",
+     "SampleName" : "BARCODE10",
      "IndexMetrics" : [
       {
        "IndexSequence" : "GACCTGAA+TTGGTGAG",
@@ -99,8 +99,8 @@
      ]
     },
     {
-     "SampleId" : "SQ11",
-     "SampleName" : "SQ11",
+     "SampleId" : "BARCODE11",
+     "SampleName" : "BARCODE11",
      "IndexMetrics" : [
       {
        "IndexSequence" : "TCTCTACT+CGCGGTTC",
@@ -130,8 +130,8 @@
      ]
     },
     {
-     "SampleId" : "SQ12",
-     "SampleName" : "SQ12",
+     "SampleId" : "BARCODE12",
+     "SampleName" : "BARCODE12",
      "IndexMetrics" : [
       {
        "IndexSequence" : "CTCTCGTC+TATAACCT",
@@ -161,8 +161,8 @@
      ]
     },
     {
-     "SampleId" : "SQ13",
-     "SampleName" : "SQ13",
+     "SampleId" : "BARCODE13",
+     "SampleName" : "BARCODE13",
      "IndexMetrics" : [
       {
        "IndexSequence" : "CCAAGTCT+AAGGATGA",
@@ -192,8 +192,8 @@
      ]
     },
     {
-     "SampleId" : "SQ14",
-     "SampleName" : "SQ14",
+     "SampleId" : "BARCODE14",
+     "SampleName" : "BARCODE14",
      "IndexMetrics" : [
       {
        "IndexSequence" : "TTGGACTC+GGAAGCAG",
@@ -223,8 +223,8 @@
      ]
     },
     {
-     "SampleId" : "SQ15",
-     "SampleName" : "SQ15",
+     "SampleId" : "BARCODE15",
+     "SampleName" : "BARCODE15",
      "IndexMetrics" : [
       {
        "IndexSequence" : "GGCTTAAG+TCGTGACC",
@@ -254,8 +254,8 @@
      ]
     },
     {
-     "SampleId" : "SQ16",
-     "SampleName" : "SQ16",
+     "SampleId" : "BARCODE16",
+     "SampleName" : "BARCODE16",
      "IndexMetrics" : [
       {
        "IndexSequence" : "AATCCGGA+CTACAGTT",
@@ -285,8 +285,8 @@
      ]
     },
     {
-     "SampleId" : "SQ17",
-     "SampleName" : "SQ17",
+     "SampleId" : "BARCODE17",
+     "SampleName" : "BARCODE17",
      "IndexMetrics" : [
       {
        "IndexSequence" : "TAATACAG+ATATTCAC",
@@ -316,8 +316,8 @@
      ]
     },
     {
-     "SampleId" : "SQ18",
-     "SampleName" : "SQ18",
+     "SampleId" : "BARCODE18",
+     "SampleName" : "BARCODE18",
      "IndexMetrics" : [
       {
        "IndexSequence" : "CGGCGTGA+GCGCCTGT",
@@ -347,8 +347,8 @@
      ]
     },
     {
-     "SampleId" : "SQ19",
-     "SampleName" : "SQ19",
+     "SampleId" : "BARCODE19",
+     "SampleName" : "BARCODE19",
      "IndexMetrics" : [
       {
        "IndexSequence" : "ATGTAAGT+ACTCTATG",
@@ -378,8 +378,8 @@
      ]
     },
     {
-     "SampleId" : "SQ2",
-     "SampleName" : "SQ2",
+     "SampleId" : "BARCODE2",
+     "SampleName" : "BARCODE2",
      "IndexMetrics" : [
       {
        "IndexSequence" : "TTATAACC+GATATCGA",
@@ -409,8 +409,8 @@
      ]
     },
     {
-     "SampleId" : "SQ20",
-     "SampleName" : "SQ20",
+     "SampleId" : "BARCODE20",
+     "SampleName" : "BARCODE20",
      "IndexMetrics" : [
       {
        "IndexSequence" : "GCACGGAC+GTCTCGCA",
@@ -440,8 +440,8 @@
      ]
     },
     {
-     "SampleId" : "SQ21",
-     "SampleName" : "SQ21",
+     "SampleId" : "BARCODE21",
+     "SampleName" : "BARCODE21",
      "IndexMetrics" : [
       {
        "IndexSequence" : "GGTACCTT+AAGACGTC",
@@ -471,8 +471,8 @@
      ]
     },
     {
-     "SampleId" : "SQ22",
-     "SampleName" : "SQ22",
+     "SampleId" : "BARCODE22",
+     "SampleName" : "BARCODE22",
      "IndexMetrics" : [
       {
        "IndexSequence" : "AACGTTCC+GGAGTACT",
@@ -502,8 +502,8 @@
      ]
     },
     {
-     "SampleId" : "SQ23",
-     "SampleName" : "SQ23",
+     "SampleId" : "BARCODE23",
+     "SampleName" : "BARCODE23",
      "IndexMetrics" : [
       {
        "IndexSequence" : "GCAGAATT+ACCGGCCA",
@@ -533,8 +533,8 @@
      ]
     },
     {
-     "SampleId" : "SQ24",
-     "SampleName" : "SQ24",
+     "SampleId" : "BARCODE24",
+     "SampleName" : "BARCODE24",
      "IndexMetrics" : [
       {
        "IndexSequence" : "ATGAGGCC+GTTAATTG",
@@ -564,8 +564,8 @@
      ]
     },
     {
-     "SampleId" : "SQ25",
-     "SampleName" : "SQ25",
+     "SampleId" : "BARCODE25",
+     "SampleName" : "BARCODE25",
      "IndexMetrics" : [
       {
        "IndexSequence" : "ACTAAGAT+AACCGCGG",
@@ -595,8 +595,8 @@
      ]
     },
     {
-     "SampleId" : "SQ26",
-     "SampleName" : "SQ26",
+     "SampleId" : "BARCODE26",
+     "SampleName" : "BARCODE26",
      "IndexMetrics" : [
       {
        "IndexSequence" : "GTCGGAGC+GGTTATAA",
@@ -626,8 +626,8 @@
      ]
     },
     {
-     "SampleId" : "SQ27",
-     "SampleName" : "SQ27",
+     "SampleId" : "BARCODE27",
+     "SampleName" : "BARCODE27",
      "IndexMetrics" : [
       {
        "IndexSequence" : "CTTGGTAT+CCAAGTCC",
@@ -657,8 +657,8 @@
      ]
     },
     {
-     "SampleId" : "SQ28",
-     "SampleName" : "SQ28",
+     "SampleId" : "BARCODE28",
+     "SampleName" : "BARCODE28",
      "IndexMetrics" : [
       {
        "IndexSequence" : "TCCAACGC+TTGGACTT",
@@ -688,8 +688,8 @@
      ]
     },
     {
-     "SampleId" : "SQ29",
-     "SampleName" : "SQ29",
+     "SampleId" : "BARCODE29",
+     "SampleName" : "BARCODE29",
      "IndexMetrics" : [
       {
        "IndexSequence" : "CCGTGAAG+CAGTGGAT",
@@ -719,8 +719,8 @@
      ]
     },
     {
-     "SampleId" : "SQ3",
-     "SampleName" : "SQ3",
+     "SampleId" : "BARCODE3",
+     "SampleName" : "BARCODE3",
      "IndexMetrics" : [
       {
        "IndexSequence" : "GGACTTGG+CGCAGACG",
@@ -750,8 +750,8 @@
      ]
     },
     {
-     "SampleId" : "SQ30",
-     "SampleName" : "SQ30",
+     "SampleId" : "BARCODE30",
+     "SampleName" : "BARCODE30",
      "IndexMetrics" : [
       {
        "IndexSequence" : "TTACAGGA+TGACAAGC",
@@ -781,8 +781,8 @@
      ]
     },
     {
-     "SampleId" : "SQ31",
-     "SampleName" : "SQ31",
+     "SampleId" : "BARCODE31",
+     "SampleName" : "BARCODE31",
      "IndexMetrics" : [
       {
        "IndexSequence" : "GGCATTCT+CTAGCTTG",
@@ -812,8 +812,8 @@
      ]
     },
     {
-     "SampleId" : "SQ32",
-     "SampleName" : "SQ32",
+     "SampleId" : "BARCODE32",
+     "SampleName" : "BARCODE32",
      "IndexMetrics" : [
       {
        "IndexSequence" : "AATGCCTC+TCGATCCA",
@@ -843,8 +843,8 @@
      ]
     },
     {
-     "SampleId" : "SQ33",
-     "SampleName" : "SQ33",
+     "SampleId" : "BARCODE33",
+     "SampleName" : "BARCODE33",
      "IndexMetrics" : [
       {
        "IndexSequence" : "TACCGAGG+CCTGAACT",
@@ -874,8 +874,8 @@
      ]
     },
     {
-     "SampleId" : "SQ34",
-     "SampleName" : "SQ34",
+     "SampleId" : "BARCODE34",
+     "SampleName" : "BARCODE34",
      "IndexMetrics" : [
       {
        "IndexSequence" : "CGTTAGAA+TTCAGGTC",
@@ -905,8 +905,8 @@
      ]
     },
     {
-     "SampleId" : "SQ35",
-     "SampleName" : "SQ35",
+     "SampleId" : "BARCODE35",
+     "SampleName" : "BARCODE35",
      "IndexMetrics" : [
       {
        "IndexSequence" : "AGCCTCAT+AGTAGAGA",
@@ -936,8 +936,8 @@
      ]
     },
     {
-     "SampleId" : "SQ36",
-     "SampleName" : "SQ36",
+     "SampleId" : "BARCODE36",
+     "SampleName" : "BARCODE36",
      "IndexMetrics" : [
       {
        "IndexSequence" : "GATTCTGC+GACGAGAG",
@@ -967,8 +967,8 @@
      ]
     },
     {
-     "SampleId" : "SQ37",
-     "SampleName" : "SQ37",
+     "SampleId" : "BARCODE37",
+     "SampleName" : "BARCODE37",
      "IndexMetrics" : [
       {
        "IndexSequence" : "TCGTAGTG+AGACTTGG",
@@ -998,8 +998,8 @@
      ]
     },
     {
-     "SampleId" : "SQ38",
-     "SampleName" : "SQ38",
+     "SampleId" : "BARCODE38",
+     "SampleName" : "BARCODE38",
      "IndexMetrics" : [
       {
        "IndexSequence" : "CTACGACA+GAGTCCAA",
@@ -1029,8 +1029,8 @@
      ]
     },
     {
-     "SampleId" : "SQ39",
-     "SampleName" : "SQ39",
+     "SampleId" : "BARCODE39",
+     "SampleName" : "BARCODE39",
      "IndexMetrics" : [
       {
        "IndexSequence" : "TAAGTGGT+CTTAAGCC",
@@ -1060,8 +1060,8 @@
      ]
     },
     {
-     "SampleId" : "SQ4",
-     "SampleName" : "SQ4",
+     "SampleId" : "BARCODE4",
+     "SampleName" : "BARCODE4",
      "IndexMetrics" : [
       {
        "IndexSequence" : "AAGTCCAA+TATGAGTA",
@@ -1091,8 +1091,8 @@
      ]
     },
     {
-     "SampleId" : "SQ40",
-     "SampleName" : "SQ40",
+     "SampleId" : "BARCODE40",
+     "SampleName" : "BARCODE40",
      "IndexMetrics" : [
       {
        "IndexSequence" : "CGGACAAC+TCCGGATT",
@@ -1122,8 +1122,8 @@
      ]
     },
     {
-     "SampleId" : "SQ41",
-     "SampleName" : "SQ41",
+     "SampleId" : "BARCODE41",
+     "SampleName" : "BARCODE41",
      "IndexMetrics" : [
       {
        "IndexSequence" : "ATATGGAT+CTGTATTA",
@@ -1153,8 +1153,8 @@
      ]
     },
     {
-     "SampleId" : "SQ42",
-     "SampleName" : "SQ42",
+     "SampleId" : "BARCODE42",
+     "SampleName" : "BARCODE42",
      "IndexMetrics" : [
       {
        "IndexSequence" : "GCGCAAGC+TCACGCCG",
@@ -1184,8 +1184,8 @@
      ]
     },
     {
-     "SampleId" : "SQ43",
-     "SampleName" : "SQ43",
+     "SampleId" : "BARCODE43",
+     "SampleName" : "BARCODE43",
      "IndexMetrics" : [
       {
        "IndexSequence" : "AAGATACT+ACTTACAT",
@@ -1215,8 +1215,8 @@
      ]
     },
     {
-     "SampleId" : "SQ44",
-     "SampleName" : "SQ44",
+     "SampleId" : "BARCODE44",
+     "SampleName" : "BARCODE44",
      "IndexMetrics" : [
       {
        "IndexSequence" : "GGAGCGTC+GTCCGTGC",
@@ -1246,8 +1246,8 @@
      ]
     },
     {
-     "SampleId" : "SQ45",
-     "SampleName" : "SQ45",
+     "SampleId" : "BARCODE45",
+     "SampleName" : "BARCODE45",
      "IndexMetrics" : [
       {
        "IndexSequence" : "ATGGCATG+AAGGTACC",
@@ -1277,8 +1277,8 @@
      ]
     },
     {
-     "SampleId" : "SQ46",
-     "SampleName" : "SQ46",
+     "SampleId" : "BARCODE46",
+     "SampleName" : "BARCODE46",
      "IndexMetrics" : [
       {
        "IndexSequence" : "GCAATGCA+GGAACGTT",
@@ -1308,8 +1308,8 @@
      ]
     },
     {
-     "SampleId" : "SQ47",
-     "SampleName" : "SQ47",
+     "SampleId" : "BARCODE47",
+     "SampleName" : "BARCODE47",
      "IndexMetrics" : [
       {
        "IndexSequence" : "GTTCCAAT+AATTCTGC",
@@ -1339,8 +1339,8 @@
      ]
     },
     {
-     "SampleId" : "SQ48",
-     "SampleName" : "SQ48",
+     "SampleId" : "BARCODE48",
+     "SampleName" : "BARCODE48",
      "IndexMetrics" : [
       {
        "IndexSequence" : "ACCTTGGC+GGCCTCAT",
@@ -1370,8 +1370,8 @@
      ]
     },
     {
-     "SampleId" : "SQ49",
-     "SampleName" : "SQ49",
+     "SampleId" : "BARCODE49",
+     "SampleName" : "BARCODE49",
      "IndexMetrics" : [
       {
        "IndexSequence" : "ATATCTCG+ATCTTAGT",
@@ -1401,8 +1401,8 @@
      ]
     },
     {
-     "SampleId" : "SQ5",
-     "SampleName" : "SQ5",
+     "SampleId" : "BARCODE5",
+     "SampleName" : "BARCODE5",
      "IndexMetrics" : [
       {
        "IndexSequence" : "ATCCACTG+AGGTGCGT",
@@ -1432,8 +1432,8 @@
      ]
     },
     {
-     "SampleId" : "SQ50",
-     "SampleName" : "SQ50",
+     "SampleId" : "BARCODE50",
+     "SampleName" : "BARCODE50",
      "IndexMetrics" : [
       {
        "IndexSequence" : "GCGCTCTA+GCTCCGAC",
@@ -1463,8 +1463,8 @@
      ]
     },
     {
-     "SampleId" : "SQ51",
-     "SampleName" : "SQ51",
+     "SampleId" : "BARCODE51",
+     "SampleName" : "BARCODE51",
      "IndexMetrics" : [
       {
        "IndexSequence" : "AACAGGTT+ATACCAAG",
@@ -1494,8 +1494,8 @@
      ]
     },
     {
-     "SampleId" : "SQ52",
-     "SampleName" : "SQ52",
+     "SampleId" : "BARCODE52",
+     "SampleName" : "BARCODE52",
      "IndexMetrics" : [
       {
        "IndexSequence" : "GGTGAACC+GCGTTGGA",
@@ -1525,8 +1525,8 @@
      ]
     },
     {
-     "SampleId" : "SQ53",
-     "SampleName" : "SQ53",
+     "SampleId" : "BARCODE53",
+     "SampleName" : "BARCODE53",
      "IndexMetrics" : [
       {
        "IndexSequence" : "CAACAATG+CTTCACGG",
@@ -1556,8 +1556,8 @@
      ]
     },
     {
-     "SampleId" : "SQ54",
-     "SampleName" : "SQ54",
+     "SampleId" : "BARCODE54",
+     "SampleName" : "BARCODE54",
      "IndexMetrics" : [
       {
        "IndexSequence" : "TGGTGGCA+TCCTGTAA",
@@ -1587,8 +1587,8 @@
      ]
     },
     {
-     "SampleId" : "SQ55",
-     "SampleName" : "SQ55",
+     "SampleId" : "BARCODE55",
+     "SampleName" : "BARCODE55",
      "IndexMetrics" : [
       {
        "IndexSequence" : "AGGCAGAG+AGAATGCC",
@@ -1618,8 +1618,8 @@
      ]
     },
     {
-     "SampleId" : "SQ56",
-     "SampleName" : "SQ56",
+     "SampleId" : "BARCODE56",
+     "SampleName" : "BARCODE56",
      "IndexMetrics" : [
       {
        "IndexSequence" : "GAATGAGA+GAGGCATT",
@@ -1649,8 +1649,8 @@
      ]
     },
     {
-     "SampleId" : "SQ57",
-     "SampleName" : "SQ57",
+     "SampleId" : "BARCODE57",
+     "SampleName" : "BARCODE57",
      "IndexMetrics" : [
       {
        "IndexSequence" : "TGCGGCGT+CCTCGGTA",
@@ -1680,8 +1680,8 @@
      ]
     },
     {
-     "SampleId" : "SQ58",
-     "SampleName" : "SQ58",
+     "SampleId" : "BARCODE58",
+     "SampleName" : "BARCODE58",
      "IndexMetrics" : [
       {
        "IndexSequence" : "CATAATAC+TTCTAACG",
@@ -1711,8 +1711,8 @@
      ]
     },
     {
-     "SampleId" : "SQ59",
-     "SampleName" : "SQ59",
+     "SampleId" : "BARCODE59",
+     "SampleName" : "BARCODE59",
      "IndexMetrics" : [
       {
        "IndexSequence" : "GATCTATC+ATGAGGCT",
@@ -1742,8 +1742,8 @@
      ]
     },
     {
-     "SampleId" : "SQ6",
-     "SampleName" : "SQ6",
+     "SampleId" : "BARCODE6",
+     "SampleName" : "BARCODE6",
      "IndexMetrics" : [
       {
        "IndexSequence" : "GCTTGTCA+GAACATAC",
@@ -1773,8 +1773,8 @@
      ]
     },
     {
-     "SampleId" : "SQ60",
-     "SampleName" : "SQ60",
+     "SampleId" : "BARCODE60",
+     "SampleName" : "BARCODE60",
      "IndexMetrics" : [
       {
        "IndexSequence" : "AGCTCGCT+GCAGAATC",
@@ -1804,8 +1804,8 @@
      ]
     },
     {
-     "SampleId" : "SQ61",
-     "SampleName" : "SQ61",
+     "SampleId" : "BARCODE61",
+     "SampleName" : "BARCODE61",
      "IndexMetrics" : [
       {
        "IndexSequence" : "CGGAACTG+CACTACGA",
@@ -1835,8 +1835,8 @@
      ]
     },
     {
-     "SampleId" : "SQ62",
-     "SampleName" : "SQ62",
+     "SampleId" : "BARCODE62",
+     "SampleName" : "BARCODE62",
      "IndexMetrics" : [
       {
        "IndexSequence" : "TAAGGTCA+TGTCGTAG",
@@ -1866,8 +1866,8 @@
      ]
     },
     {
-     "SampleId" : "SQ63",
-     "SampleName" : "SQ63",
+     "SampleId" : "BARCODE63",
+     "SampleName" : "BARCODE63",
      "IndexMetrics" : [
       {
        "IndexSequence" : "TTGCCTAG+ACCACTTA",
@@ -1897,8 +1897,8 @@
      ]
     },
     {
-     "SampleId" : "SQ64",
-     "SampleName" : "SQ64",
+     "SampleId" : "BARCODE64",
+     "SampleName" : "BARCODE64",
      "IndexMetrics" : [
       {
        "IndexSequence" : "CCATTCGA+GTTGTCCG",
@@ -1928,8 +1928,8 @@
      ]
     },
     {
-     "SampleId" : "SQ65",
-     "SampleName" : "SQ65",
+     "SampleId" : "BARCODE65",
+     "SampleName" : "BARCODE65",
      "IndexMetrics" : [
       {
        "IndexSequence" : "ACACTAAG+ATCCATAT",
@@ -1959,8 +1959,8 @@
      ]
     },
     {
-     "SampleId" : "SQ66",
-     "SampleName" : "SQ66",
+     "SampleId" : "BARCODE66",
+     "SampleName" : "BARCODE66",
      "IndexMetrics" : [
       {
        "IndexSequence" : "GTGTCGGA+GCTTGCGC",
@@ -1990,8 +1990,8 @@
      ]
     },
     {
-     "SampleId" : "SQ67",
-     "SampleName" : "SQ67",
+     "SampleId" : "BARCODE67",
+     "SampleName" : "BARCODE67",
      "IndexMetrics" : [
       {
        "IndexSequence" : "TTCCTGTT+AGTATCTT",
@@ -2021,8 +2021,8 @@
      ]
     },
     {
-     "SampleId" : "SQ68",
-     "SampleName" : "SQ68",
+     "SampleId" : "BARCODE68",
+     "SampleName" : "BARCODE68",
      "IndexMetrics" : [
       {
        "IndexSequence" : "CCTTCACC+GACGCTCC",
@@ -2052,8 +2052,8 @@
      ]
     },
     {
-     "SampleId" : "SQ69",
-     "SampleName" : "SQ69",
+     "SampleId" : "BARCODE69",
+     "SampleName" : "BARCODE69",
      "IndexMetrics" : [
       {
        "IndexSequence" : "GCCACAGG+CATGCCAT",
@@ -2083,8 +2083,8 @@
      ]
     },
     {
-     "SampleId" : "SQ7",
-     "SampleName" : "SQ7",
+     "SampleId" : "BARCODE7",
+     "SampleName" : "BARCODE7",
      "IndexMetrics" : [
       {
        "IndexSequence" : "CAAGCTAG+ACATAGCG",
@@ -2114,8 +2114,8 @@
      ]
     },
     {
-     "SampleId" : "SQ70",
-     "SampleName" : "SQ70",
+     "SampleId" : "BARCODE70",
+     "SampleName" : "BARCODE70",
      "IndexMetrics" : [
       {
        "IndexSequence" : "ATTGTGAA+TGCATTGC",
@@ -2145,8 +2145,8 @@
      ]
     },
     {
-     "SampleId" : "SQ71",
-     "SampleName" : "SQ71",
+     "SampleId" : "BARCODE71",
+     "SampleName" : "BARCODE71",
      "IndexMetrics" : [
       {
        "IndexSequence" : "ACTCGTGT+ATTGGAAC",
@@ -2176,8 +2176,8 @@
      ]
     },
     {
-     "SampleId" : "SQ72",
-     "SampleName" : "SQ72",
+     "SampleId" : "BARCODE72",
+     "SampleName" : "BARCODE72",
      "IndexMetrics" : [
       {
        "IndexSequence" : "GTCTACAC+GCCAAGGT",
@@ -2207,8 +2207,8 @@
      ]
     },
     {
-     "SampleId" : "SQ73",
-     "SampleName" : "SQ73",
+     "SampleId" : "BARCODE73",
+     "SampleName" : "BARCODE73",
      "IndexMetrics" : [
       {
        "IndexSequence" : "CAATTAAC+CGAGATAT",
@@ -2238,8 +2238,8 @@
      ]
     },
     {
-     "SampleId" : "SQ74",
-     "SampleName" : "SQ74",
+     "SampleId" : "BARCODE74",
+     "SampleName" : "BARCODE74",
      "IndexMetrics" : [
       {
        "IndexSequence" : "TGGCCGGT+TAGAGCGC",
@@ -2269,8 +2269,8 @@
      ]
     },
     {
-     "SampleId" : "SQ75",
-     "SampleName" : "SQ75",
+     "SampleId" : "BARCODE75",
+     "SampleName" : "BARCODE75",
      "IndexMetrics" : [
       {
        "IndexSequence" : "AGTACTCC+AACCTGTT",
@@ -2300,8 +2300,8 @@
      ]
     },
     {
-     "SampleId" : "SQ76",
-     "SampleName" : "SQ76",
+     "SampleId" : "BARCODE76",
+     "SampleName" : "BARCODE76",
      "IndexMetrics" : [
       {
        "IndexSequence" : "GACGTCTT+GGTTCACC",
@@ -2331,8 +2331,8 @@
      ]
     },
     {
-     "SampleId" : "SQ77",
-     "SampleName" : "SQ77",
+     "SampleId" : "BARCODE77",
+     "SampleName" : "BARCODE77",
      "IndexMetrics" : [
       {
        "IndexSequence" : "TGCGAGAC+CATTGTTG",
@@ -2362,8 +2362,8 @@
      ]
     },
     {
-     "SampleId" : "SQ78",
-     "SampleName" : "SQ78",
+     "SampleId" : "BARCODE78",
+     "SampleName" : "BARCODE78",
      "IndexMetrics" : [
       {
        "IndexSequence" : "CATAGAGT+TGCCACCA",
@@ -2393,8 +2393,8 @@
      ]
     },
     {
-     "SampleId" : "SQ79",
-     "SampleName" : "SQ79",
+     "SampleId" : "BARCODE79",
+     "SampleName" : "BARCODE79",
      "IndexMetrics" : [
       {
        "IndexSequence" : "ACAGGCGC+CTCTGCCT",
@@ -2424,8 +2424,8 @@
      ]
     },
     {
-     "SampleId" : "SQ8",
-     "SampleName" : "SQ8",
+     "SampleId" : "BARCODE8",
+     "SampleName" : "BARCODE8",
      "IndexMetrics" : [
       {
        "IndexSequence" : "TGGATCGA+GTGCGATA",
@@ -2455,8 +2455,8 @@
      ]
     },
     {
-     "SampleId" : "SQ80",
-     "SampleName" : "SQ80",
+     "SampleId" : "BARCODE80",
+     "SampleName" : "BARCODE80",
      "IndexMetrics" : [
       {
        "IndexSequence" : "GTGAATAT+TCTCATTC",
@@ -2486,8 +2486,8 @@
      ]
     },
     {
-     "SampleId" : "SQ81",
-     "SampleName" : "SQ81",
+     "SampleId" : "BARCODE81",
+     "SampleName" : "BARCODE81",
      "IndexMetrics" : [
       {
        "IndexSequence" : "AACTGTAG+ACGCCGCA",
@@ -2517,8 +2517,8 @@
      ]
     },
     {
-     "SampleId" : "SQ82",
-     "SampleName" : "SQ82",
+     "SampleId" : "BARCODE82",
+     "SampleName" : "BARCODE82",
      "IndexMetrics" : [
       {
        "IndexSequence" : "GGTCACGA+GTATTATG",
@@ -2548,8 +2548,8 @@
      ]
     },
     {
-     "SampleId" : "SQ83",
-     "SampleName" : "SQ83",
+     "SampleId" : "BARCODE83",
+     "SampleName" : "BARCODE83",
      "IndexMetrics" : [
       {
        "IndexSequence" : "CTGCTTCC+GATAGATC",
@@ -2579,8 +2579,8 @@
      ]
     },
     {
-     "SampleId" : "SQ84",
-     "SampleName" : "SQ84",
+     "SampleId" : "BARCODE84",
+     "SampleName" : "BARCODE84",
      "IndexMetrics" : [
       {
        "IndexSequence" : "TCATCCTT+AGCGAGCT",
@@ -2610,8 +2610,8 @@
      ]
     },
     {
-     "SampleId" : "SQ85",
-     "SampleName" : "SQ85",
+     "SampleId" : "BARCODE85",
+     "SampleName" : "BARCODE85",
      "IndexMetrics" : [
       {
        "IndexSequence" : "AGGTTATA+CAGTTCCG",
@@ -2641,8 +2641,8 @@
      ]
     },
     {
-     "SampleId" : "SQ86",
-     "SampleName" : "SQ86",
+     "SampleId" : "BARCODE86",
+     "SampleName" : "BARCODE86",
      "IndexMetrics" : [
       {
        "IndexSequence" : "GAACCGCG+TGACCTTA",
@@ -2672,8 +2672,8 @@
      ]
     },
     {
-     "SampleId" : "SQ87",
-     "SampleName" : "SQ87",
+     "SampleId" : "BARCODE87",
+     "SampleName" : "BARCODE87",
      "IndexMetrics" : [
       {
        "IndexSequence" : "CTCACCAA+CTAGGCAA",
@@ -2703,8 +2703,8 @@
      ]
     },
     {
-     "SampleId" : "SQ88",
-     "SampleName" : "SQ88",
+     "SampleId" : "BARCODE88",
+     "SampleName" : "BARCODE88",
      "IndexMetrics" : [
       {
        "IndexSequence" : "TCTGTTGG+TCGAATGG",
@@ -2734,8 +2734,8 @@
      ]
     },
     {
-     "SampleId" : "SQ89",
-     "SampleName" : "SQ89",
+     "SampleId" : "BARCODE89",
+     "SampleName" : "BARCODE89",
      "IndexMetrics" : [
       {
        "IndexSequence" : "TATCGCAC+CTTAGTGT",
@@ -2765,8 +2765,8 @@
      ]
     },
     {
-     "SampleId" : "SQ9",
-     "SampleName" : "SQ9",
+     "SampleId" : "BARCODE9",
+     "SampleName" : "BARCODE9",
      "IndexMetrics" : [
       {
        "IndexSequence" : "AGTTCAGG+CCAACAGA",
@@ -2796,8 +2796,8 @@
      ]
     },
     {
-     "SampleId" : "SQ90",
-     "SampleName" : "SQ90",
+     "SampleId" : "BARCODE90",
+     "SampleName" : "BARCODE90",
      "IndexMetrics" : [
       {
        "IndexSequence" : "CGCTATGT+TCCGACAC",
@@ -2827,8 +2827,8 @@
      ]
     },
     {
-     "SampleId" : "SQ91",
-     "SampleName" : "SQ91",
+     "SampleId" : "BARCODE91",
+     "SampleName" : "BARCODE91",
      "IndexMetrics" : [
       {
        "IndexSequence" : "GTATGTTC+AACAGGAA",
@@ -2858,8 +2858,8 @@
      ]
     },
     {
-     "SampleId" : "SQ92",
-     "SampleName" : "SQ92",
+     "SampleId" : "BARCODE92",
+     "SampleName" : "BARCODE92",
      "IndexMetrics" : [
       {
        "IndexSequence" : "ACGCACCT+GGTGAAGG",
@@ -2889,8 +2889,8 @@
      ]
     },
     {
-     "SampleId" : "SQ93",
-     "SampleName" : "SQ93",
+     "SampleId" : "BARCODE93",
+     "SampleName" : "BARCODE93",
      "IndexMetrics" : [
       {
        "IndexSequence" : "TACTCATA+CCTGTGGC",
@@ -2920,8 +2920,8 @@
      ]
     },
     {
-     "SampleId" : "SQ94",
-     "SampleName" : "SQ94",
+     "SampleId" : "BARCODE94",
+     "SampleName" : "BARCODE94",
      "IndexMetrics" : [
       {
        "IndexSequence" : "CGTCTGCG+TTCACAAT",
@@ -2951,8 +2951,8 @@
      ]
     },
     {
-     "SampleId" : "SQ95",
-     "SampleName" : "SQ95",
+     "SampleId" : "BARCODE95",
+     "SampleName" : "BARCODE95",
      "IndexMetrics" : [
       {
        "IndexSequence" : "TCGATATC+ACACGAGT",
@@ -2982,8 +2982,8 @@
      ]
     },
     {
-     "SampleId" : "SQ96",
-     "SampleName" : "SQ96",
+     "SampleId" : "BARCODE96",
+     "SampleName" : "BARCODE96",
      "IndexMetrics" : [
       {
        "IndexSequence" : "CTAGCGCT+GTGTAGAC",
