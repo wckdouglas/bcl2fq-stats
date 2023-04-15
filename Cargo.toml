@@ -12,4 +12,4 @@ description = "bcl2fq-stats is designed to give a quick overview of read count d
 edition = "2021"
 license = "Apache-2.0"
 name = "bcl2fq-stats"
-version = "0.1.0"
+version = "0.1.1"
