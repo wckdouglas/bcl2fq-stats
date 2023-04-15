@@ -1,7 +1,7 @@
 {
- "Flowcell" : "000000000-KL8GM",
+ "Flowcell" : "mock_flow_cell_id",
  "RunNumber" : 1,
- "RunId" : "230330_M00182_0001_000000000-KL8GM",
+ "RunId" : "mock_run_id",
  "ReadInfosForLanes" : [
   {
    "LaneNumber" : 1,
