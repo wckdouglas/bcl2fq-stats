@@ -67,3 +67,29 @@ pub struct Bcl2FqStats {
     pub ConversionResults: Vec<ConversionResult>,
     pub UnknownBarcodes: Vec<UnknownBarcode>,
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use serde_json::from_str;
+    use std::fs::File;
+    use std::io::Read;
+
+    #[test]
+    fn test_model() {
+        let filename = "data/Stats.json";
+        let mut file = File::open(filename).unwrap();
+        let mut data = String::new();
+        file.read_to_string(&mut data).unwrap();
+        let bcl2fastq_stats: Bcl2FqStats = from_str(&data).unwrap();
+        assert_eq!(bcl2fastq_stats.ReadInfosForLanes[0].LaneNumber, 1);
+
+        let first_barcode = &bcl2fastq_stats.ConversionResults[0].DemuxResults[0];
+        assert_eq!(&first_barcode.SampleId, "BARCODE1");
+        assert_eq!(&first_barcode.SampleName, "BARCODE1");
+        assert_eq!(
+            &first_barcode.IndexMetrics[0].IndexSequence,
+            "CCGCGGTT+AGCGCTAG"
+        );
+    }
+}

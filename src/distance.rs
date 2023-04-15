@@ -7,10 +7,10 @@
 /// # Returns
 /// - hamming distance
 pub fn hamming_distance(barcode_a: &[u8], barcode_b: &[u8]) -> Result<u8, String> {
-    let mut score = 0;
+    let mut score: u8 = 0; // u8 should be enough for barcode distance given barcodes are not long
     if barcode_a.len() == barcode_b.len() {
         for it in barcode_a.iter().zip(barcode_b.iter()) {
-            let (a, b) = it;
+            let (a, b): (&u8, &u8) = it;
             if a != b {
                 score += 1;
             }

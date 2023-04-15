@@ -155,14 +155,14 @@ pub fn run() -> Result<(), String> {
     info!("Reading {}", &args.json_file);
     // Read json file content as string
     // TODO: can we stream it?
-    let mut file = File::open(args.json_file).unwrap();
+    let mut file = File::open(args.json_file).map_err(|e| e.to_string())?;
     let mut data = String::new();
-    file.read_to_string(&mut data).unwrap();
+    file.read_to_string(&mut data).map_err(|e| e.to_string())?;
+    let bcl2fastq_stats: Bcl2FqStats = from_str(&data).map_err(|e| e.to_string())?;
 
     println!("{}", HEADER);
     let mut barcode_list: HashMap<String, String> = HashMap::new();
     let mut barcode_counter: HashMap<String, u64> = HashMap::new();
-    let bcl2fastq_stats: Bcl2FqStats = from_str(&data).unwrap();
 
     // parse demux result from all lanes
     let _ = &bcl2fastq_stats
