@@ -2,6 +2,7 @@ name: CI
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
+
 on:
   push:
     branches:
@@ -9,6 +10,7 @@ on:
   pull_request:
     branches:
     - main
+
 jobs:
   build-and-test-rust:
     name: Rust CI
@@ -33,6 +35,7 @@ jobs:
       run: |
         cargo run -- -j data/Stats.json > test.out.tsv
         diff -y test.out.tsv data/expected.tsv
+
   build-and-push-image:
     needs: build-and-test-rust
     runs-on: ubuntu-latest
